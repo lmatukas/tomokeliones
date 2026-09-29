@@ -1,0 +1,22 @@
+---
+import {countries,countryStories} from '../lib/content';
+const {id='country-search',compact=false}=Astro.props;
+const items=countries.map(c=>({name:c.name_lt,en:c.name_en,code:c.iso_alpha2,href:'/salys/'+c.iso_alpha2.toLowerCase()+'/',count:countryStories(c.country_id).length}));
+---
+<div class:list={['search',{compact}]} data-country-search>
+<label for={id}>Kuri šalis domina?</label><div class="search-field"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id={id} type="search" autocomplete="off" placeholder="Šalies pavadinimas…" aria-controls={id+'-results'}/><span>↵</span></div>
+<div id={id+'-results'} class="search-results" hidden><ul></ul><p role="status" aria-live="polite"></p></div>
+<script type="application/json" data-countries set:html={JSON.stringify(items).replace(/</g,'\\u003c')}/>
+<noscript><a href="/salys/">Atverti šalių katalogą →</a></noscript>
+</div>
+<script>
+const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+for(const root of document.querySelectorAll<HTMLElement>('[data-country-search]')){
+ const input=root.querySelector('input')!,box=root.querySelector<HTMLElement>('.search-results')!,list=box.querySelector('ul')!,status=box.querySelector('p')!;const countries=JSON.parse(root.querySelector('[data-countries]')!.textContent!);
+ function render(){const q=normalize(input.value.trim());const found=countries.filter(c=>normalize(c.name+' '+c.en+' '+c.code).includes(q)).sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name,'lt')).slice(0,7);list.replaceChildren();for(const c of found){const li=document.createElement('li'),a=document.createElement('a'),small=document.createElement('small');a.href=c.href;a.append(document.createTextNode(c.name));small.textContent=c.count?`${c.count} istorijos`:'Istorijų dar nėra';a.append(small);li.append(a);list.append(li);}status.textContent=found.length?'': 'Šalies neradome. Pabandykite kitą pavadinimą.';box.hidden=false;}
+ input.addEventListener('input',render);input.addEventListener('focus',render);
+ input.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();list.querySelector('a')?.focus();}if(e.key==='Escape')box.hidden=true;if(e.key==='Enter'){const a=list.querySelector('a');if(a){e.preventDefault();a.click();}}});
+ list.addEventListener('keydown',e=>{const links=[...list.querySelectorAll('a')],i=links.indexOf(document.activeElement as HTMLAnchorElement);if(e.key==='ArrowDown'){e.preventDefault();links[(i+1)%links.length]?.focus();}if(e.key==='ArrowUp'){e.preventDefault();if(i===0)input.focus();else links[i-1]?.focus();}if(e.key==='Escape'){input.focus();box.hidden=true;}});
+ document.addEventListener('pointerdown',e=>{if(!root.contains(e.target as Node))box.hidden=true;});root.addEventListener('focusout',()=>setTimeout(()=>{if(!root.contains(document.activeElement))box.hidden=true;},0));
+}
+</script>

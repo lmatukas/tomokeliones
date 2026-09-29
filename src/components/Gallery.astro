@@ -1,0 +1,14 @@
+---
+import {asset} from '../lib/content';
+const {items}=Astro.props;
+const photos=items.map(x=>({...x,...asset(x.assetId)}));
+---
+{photos.length>0&&<section class="gallery-section wide" aria-label="Istorijos galerija"><div class="section-heading"><h2>Iš kelionės albumo</h2><span>{photos.length} testiniai vaizdai</span></div><div class="gallery" data-gallery>{photos.map((p,i)=><figure><button class="gallery-open" data-index={i} aria-label={'Padidinti: '+p.alt}><img src={'/'+p.variants[1].src} srcset={p.variants.map(v=>'/'+v.src+' '+v.width+'w').join(', ')} sizes="(max-width: 650px) 100vw, 50vw" width={p.variants[1].width} height={p.variants[1].height} alt={p.alt} loading="lazy" decoding="async"/><span aria-hidden="true">↗</span></button><figcaption>{p.caption}</figcaption></figure>)}</div><dialog class="lightbox" aria-label="Padidinta galerijos nuotrauka"><button data-close class="lightbox-close" aria-label="Uždaryti galeriją">✕</button><figure><img alt=""/><figcaption></figcaption></figure><div class="lightbox-controls"><button data-prev aria-label="Ankstesnė nuotrauka">←</button><span data-counter aria-live="polite"></span><button data-next aria-label="Kita nuotrauka">→</button></div></dialog><script type="application/json" data-gallery-data set:html={JSON.stringify(photos).replace(/</g,'\\u003c')}/></section>}
+<script>
+for(const section of document.querySelectorAll<HTMLElement>('.gallery-section')){
+ const photos=JSON.parse(section.querySelector('[data-gallery-data]')!.textContent!),dialog=section.querySelector('dialog')!,img=dialog.querySelector('img')!,caption=dialog.querySelector('figcaption')!,counter=dialog.querySelector('[data-counter]')!;let index=0,trigger:HTMLElement|null=null;
+ const show=(n:number)=>{index=(n+photos.length)%photos.length;const p=photos[index];img.src='/'+p.variants.at(-1).src;img.alt=p.alt;caption.textContent=p.caption;counter.textContent=`${index+1} / ${photos.length}`;};
+ section.querySelectorAll<HTMLButtonElement>('.gallery-open').forEach(btn=>btn.addEventListener('click',()=>{trigger=btn;show(Number(btn.dataset.index));dialog.showModal();document.documentElement.classList.add('modal-open');}));
+ dialog.querySelector('[data-close]')!.addEventListener('click',()=>dialog.close());dialog.querySelector('[data-prev]')!.addEventListener('click',()=>show(index-1));dialog.querySelector('[data-next]')!.addEventListener('click',()=>show(index+1));dialog.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();show(index+1);}if(e.key==='ArrowLeft'){e.preventDefault();show(index-1);}});dialog.addEventListener('close',()=>{document.documentElement.classList.remove('modal-open');trigger?.focus();});dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+}
+</script>

@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "6966d0a3-b939-5800-b438-c9925c211349",
+      "sha256": "96370a26cc126fb05d32220f5a5036e7f1a6aba490ad5ce799645baef30a2acc",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/96370a26cc126fb05d32220f-480.webp",
+          "bytes": 4496
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/96370a26cc126fb05d32220f-960.webp",
+          "bytes": 10580
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/96370a26cc126fb05d32220f-1600.webp",
+          "bytes": 13988
+        }
+      ]
+    },
+    {
+      "id": "725dca8e-f062-56df-9a86-a04daeaa2e69",
+      "sha256": "610142ec10e8a08c33d982b311ca1e3a08e3f3e69c17fc652bfd489764b07066",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/610142ec10e8a08c33d982b3-480.webp",
+          "bytes": 4774
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/610142ec10e8a08c33d982b3-960.webp",
+          "bytes": 11360
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/610142ec10e8a08c33d982b3-1600.webp",
+          "bytes": 14982
+        }
+      ]
+    },
+    {
+      "id": "6bb90eac-aa05-5e72-9018-5d3a71bdaf79",
+      "sha256": "af3145f09d89c003309a6e217a2ca43cce84da79b18c1a7cd03521363cfabc4a",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/af3145f09d89c003309a6e21-480.webp",
+          "bytes": 4614
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/af3145f09d89c003309a6e21-960.webp",
+          "bytes": 10888
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/af3145f09d89c003309a6e21-1600.webp",
+          "bytes": 14242
+        }
+      ]
+    },
+    {
+      "id": "0864f830-156f-5735-8cbb-0493f1a9ce69",
+      "sha256": "81b4e593bb5ed4dac644afc6cb3d0a9b648e2b258c8e88fe1babbec603826fb1",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/81b4e593bb5ed4dac644afc6-480.webp",
+          "bytes": 4026
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/81b4e593bb5ed4dac644afc6-960.webp",
+          "bytes": 9390
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/81b4e593bb5ed4dac644afc6-1600.webp",
+          "bytes": 12186
+        }
+      ]
+    },
+    {
+      "id": "6ad0bb11-7d56-5691-8212-387947d45ea2",
+      "sha256": "0f0abea7d584585b3c95b86fd0831b49ba040d6304336c1767b27cf80213b0a8",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/0f0abea7d584585b3c95b86f-480.webp",
+          "bytes": 3794
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/0f0abea7d584585b3c95b86f-960.webp",
+          "bytes": 8898
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/0f0abea7d584585b3c95b86f-1600.webp",
+          "bytes": 11630
+        }
+      ]
+    },
+    {
+      "id": "9793dfc7-75e5-5d5e-823c-d6fcf8a9125a",
+      "sha256": "76eb33256f4215394cd965dc228ce86e0eb60319095b6b6f7e241c63dfb861f6",
+      "synthetic": true,
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "src": "media/76eb33256f4215394cd965dc-480.webp",
+          "bytes": 3660
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "src": "media/76eb33256f4215394cd965dc-960.webp",
+          "bytes": 8530
+        },
+        {
+          "width": 1200,
+          "height": 800,
+          "src": "media/76eb33256f4215394cd965dc-1600.webp",
+          "bytes": 11172
+        }
+      ]
+    }
+  ],
+  "trips": [
+    {
+      "id": "ttj-synthetic-lithuania",
+      "title": "Lietuvos bandymas",
+      "countryIds": [
+        "768f30cf-574b-5248-9953-ec705fed4599"
+      ],
+      "startDate": null,
+      "endDate": null,
+      "synthetic": true
+    }
+  ],
+  "stories": [
+    {
+      "id": "a4be4249-56c1-56d1-bcaf-5855753eef98",
+      "tripId": "ttj-synthetic-lithuania",
+      "slug": "miestai-ir-ezerai",
+      "countryIds": [
+        "768f30cf-574b-5248-9953-ec705fed4599"
+      ],
+      "title": "Miestai ir ežerai",
+      "excerpt": "TESTINIAI DUOMENYS. Išgalvotas scenarijus funkcijų patikrai; tai nėra Tomo kelionės pasakojimas.",
+      "paragraphs": [
+        "TESTINIAI DUOMENYS. Išgalvotas scenarijus funkcijų patikrai; tai nėra Tomo kelionės pasakojimas.",
+        "Tai išgalvota pirmoji testinio maršruto dalis. Rytinė stotelė mieste skirta patikrinti įžangos ir teksto atvaizdavimą. Čia nėra tikro apsilankymo datos ar asmeninės Tomo patirties.",
+        "Antroje dalyje pasakojimas persikelia prie ežero. Tekstas padeda patikrinti ilgesnę pastraipą, lietuviškas raides ir patogų skaitymą siaurame telefono ekrane. Galerijos kortelių užrašai vėliau bus pakeisti tikrų nuotraukų aprašais.",
+        "Penkios pavyzdinės stotelės žemėlapyje sujungtos tiesėmis. Toks vaizdas skirtas maršruto redagavimo bandymui, o ne kelionei planuoti."
+      ],
+      "synthetic": true,
+      "visitDate": null,
+      "gallery": [
+        {
+          "assetId": "6966d0a3-b939-5800-b438-c9925c211349",
+          "caption": "TESTAS – galerijos kortelė 1. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 1"
+        },
+        {
+          "assetId": "725dca8e-f062-56df-9a86-a04daeaa2e69",
+          "caption": "TESTAS – galerijos kortelė 2. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 2"
+        },
+        {
+          "assetId": "6bb90eac-aa05-5e72-9018-5d3a71bdaf79",
+          "caption": "TESTAS – galerijos kortelė 3. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 3"
+        },
+        {
+          "assetId": "0864f830-156f-5735-8cbb-0493f1a9ce69",
+          "caption": "TESTAS – galerijos kortelė 4. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 4"
+        }
+      ],
+      "routes": [
+        {
+          "id": "fb6460ea-8089-5fb6-971f-0459512a042c",
+          "title": "TESTAS: penkios stotelės Lietuvoje",
+          "note": "Scheminės tiesės, ne kelių navigacija ir ne tikras Tomo maršrutas.",
+          "stops": [
+            {
+              "id": "d6036764-e781-5e1d-b434-73d47b01b9ce",
+              "name": "Vilnius",
+              "lon": 25.2797,
+              "lat": 54.6872,
+              "countryId": "768f30cf-574b-5248-9953-ec705fed4599"
+            },
+            {
+              "id": "f0a28752-4c40-5a1b-a8ef-abf8876d0d44",
+              "name": "Trakai",
+              "lon": 24.933,
+              "lat": 54.642,
+              "countryId": "768f30cf-574b-5248-9953-ec705fed4599"
+            },
+            {
+              "id": "1c2e4f7b-af63-594d-b30e-cab38f543c9f",
+              "name": "Kaunas",
+              "lon": 23.9036,
+              "lat": 54.8985,
+              "countryId": "768f30cf-574b-5248-9953-ec705fed4599"
+            },
+            {
+              "id": "9e6cc2ab-ea2a-57b4-ad16-8bdd8004336b",
+              "name": "Klaipėda",
+              "lon": 21.1443,
+              "lat": 55.7033,
+              "countryId": "768f30cf-574b-5248-9953-ec705fed4599"
+            },
+            {
+              "id": "05cb0ce5-deaa-5a51-b91f-c299190d53c0",
+              "name": "Nida",
+              "lon": 21.0059,
+              "lat": 55.3032,
+              "countryId": "768f30cf-574b-5248-9953-ec705fed4599"
+            }
+          ]
+        }
+      ],
+      "status": "draft",
+      "publishedAt": null
+    },
+    {
+      "id": "3bca893c-2ded-5f08-a8fd-19ab3e041088",
+      "tripId": "ttj-synthetic-lithuania",
+      "slug": "pajurio-dienorastis",
+      "countryIds": [
+        "768f30cf-574b-5248-9953-ec705fed4599"
+      ],
+      "title": "Pajūrio dienoraštis",
+      "excerpt": "TESTINIAI DUOMENYS. Išgalvotas scenarijus funkcijų patikrai; tai nėra Tomo kelionės pasakojimas.",
+      "paragraphs": [
+        "TESTINIAI DUOMENYS. Išgalvotas scenarijus funkcijų patikrai; tai nėra Tomo kelionės pasakojimas.",
+        "Tai antroji išgalvota istorija, priskirta tai pačiai šaliai. Ji skirta įrodyti, kad vienas šalies puslapis gali rodyti kelias istorijas nedubliuojant šalies duomenų.",
+        "Testiniame scenarijuje aprašomas ramus pasivaikščiojimas ir poilsio sustojimas. Šios detalės nėra faktai apie Tomą. Galerijoje tikrinama nuotraukų eilė, skirtingi aprašai ir pakartotinis tos pačios medijos panaudojimas.",
+        "Ši istorija maršruto neturi. Taip tikrinama, kad neprivalomo maršruto nebuvimas nesugadintų istorijos puslapio."
+      ],
+      "synthetic": true,
+      "visitDate": null,
+      "gallery": [
+        {
+          "assetId": "0864f830-156f-5735-8cbb-0493f1a9ce69",
+          "caption": "TESTAS – galerijos kortelė 4. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 4"
+        },
+        {
+          "assetId": "6ad0bb11-7d56-5691-8212-387947d45ea2",
+          "caption": "TESTAS – galerijos kortelė 5. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 5"
+        },
+        {
+          "assetId": "9793dfc7-75e5-5d5e-823c-d6fcf8a9125a",
+          "caption": "TESTAS – galerijos kortelė 6. Ne kelionės nuotrauka.",
+          "alt": "Testinė numeruota galerijos kortelė 6"
+        }
+      ],
+      "routes": [],
+      "status": "draft",
+      "publishedAt": null
+    },
+    {
+      "id": "ttj-synthetic-no-photos",
+      "tripId": "ttj-synthetic-lithuania",
+      "slug": "tik-tekstas",
+      "countryIds": [
+        "768f30cf-574b-5248-9953-ec705fed4599"
+      ],
+      "title": "Kai istorijai pakanka žodžių",
+      "excerpt": "Atskiras bandymas be nuotraukų ir maršruto.",
+      "paragraphs": [
+        "Tai aiškiai pažymėtas techninis pavyzdys, ne Tomo kelionės istorija.",
+        "Ne kiekvienai istorijai būtina galerija. Šis puslapis tikrina, ar tekstas lieka patogus skaityti, kai nuotraukų nėra. Datos ir aplankymo faktai čia nenustatomi."
+      ],
+      "synthetic": true,
+      "visitDate": null,
+      "gallery": [],
+      "routes": [],
+      "status": "draft",
+      "publishedAt": null
+    }
+  ],
+  "visits": []
+}

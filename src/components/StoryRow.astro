@@ -1,0 +1,8 @@
+---
+import {asset,countries} from '../lib/content';
+const {story}=Astro.props;const image=story.gallery[0]?asset(story.gallery[0].assetId):null;
+---
+<a class="story-row" href={'/istorijos/'+story.slug+'/'}>
+<div class="story-thumb">{image?<img src={'/'+image.variants[1].src} width={image.variants[1].width} height={image.variants[1].height} alt="" loading="lazy" decoding="async"/>:<div class="text-only-icon" aria-hidden="true">Aa<span>TIK TEKSTAS</span></div>}</div>
+<div class="story-row-copy"><span class="eyebrow">{story.countryIds.map(id=>countries.find(c=>c.country_id===id)?.name_lt).join(' · ')} {story.synthetic?'· TESTINĖ ISTORIJA':''}</span><h3>{story.title}</h3><p>{story.gallery.length?`${story.gallery.length} vaizdai`:'Be nuotraukų'}{story.routes.length?` · ${story.routes.reduce((n,r)=>n+r.stops.length,0)} maršruto stotelės`:''}</p></div><span class="story-arrow" aria-hidden="true">↗</span>
+</a>
