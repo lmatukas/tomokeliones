@@ -56,6 +56,12 @@ Repository code publication is authorized; website publication is separate. No p
 
 ## Validation and limits
 
+Globe interaction/contour update: see `evidence/globe-optimization.md` for the
+new picker/worker tests, CPU benchmark and outstanding live WebGL acceptance.
+Run `node scripts/benchmark-globe.mjs` to reproduce the geographic lookup test;
+its timing is not browser FPS. Visits use contours; hover retains a raised,
+subtle fill. Textures, Earth detail and lighting remain unchanged.
+
 See `evidence/QA.md` for exact PASS / NOT TESTED / BLOCKED and screenshots. Six automated tests cover repeat/resume, manual edits/conflicts, changed/unsafe inputs, original/EXIF handling, Crimea and astronomy conventions. **The remote browser has no WebGL2; 3D rendering, polygon selection, motion preferences and Moon visuals have not passed live QA.** The Earth screenshot is a fallback poster.
 
 The implementation uses entire country polygons. Crimea belongs to Ukraine; new point tests confirm the dataset, not GPU clicks. Small countries without polygons remain in the catalog. Texture clouds/lights are static. The terminator uses UTC solar position; Moon scale/position are schematic.
