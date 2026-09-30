@@ -1,0 +1,12 @@
+---
+import {geoMercator,geoPath} from 'd3-geo';
+import fs from 'node:fs';
+const {route}=Astro.props;
+const geography=JSON.parse(fs.readFileSync('public/geo/countries.geojson','utf8'));
+const stops=route.stops;
+const region={type:'FeatureCollection',features:geography.features.filter(f=>['LT','LV','PL','BY'].includes(f.properties.alpha2))};
+const bounds={type:'MultiPoint',coordinates:stops.map(p=>[p.lon,p.lat])};
+const projection=geoMercator().fitExtent([[120,80],[770,370]],stops.length>1?bounds:region).clipExtent([[0,0],[900,480]]);const draw=geoPath(projection);
+const line={type:'LineString',coordinates:stops.map(p=>[p.lon,p.lat])};
+---
+<section class="route-section wide"><div class="section-heading"><h2>Kelionės linija</h2><span>{stops.length} stotelės · testinis maršrutas</span></div><div class="route-map"><svg viewBox="0 0 900 480" role="img" aria-label={'Scheminis maršrutas: '+stops.map(p=>p.name).join(', ')}><g class="route-land">{region.features.map(f=><path d={draw(f)||''}/>)}</g>{stops.length>1&&<path class="route-line" d={draw(line)||''}/ >}{stops.map((p,i)=>{const xy=projection([p.lon,p.lat]);return <g><circle cx={xy[0]} cy={xy[1]} r="5" class="route-point"/><text x={xy[0]+9} y={xy[1]+(i===1?20:-10)}>{p.name}</text></g>})}<text x="32" y="447" class="map-note">LIETUVA IR KAIMYNINĖS ŠALYS</text></svg></div><ol class="route-stops">{stops.map(p=><li>{p.name}</li>)}</ol><p class="fineprint">{route.note}</p></section>

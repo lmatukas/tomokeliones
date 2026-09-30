@@ -1,0 +1,26 @@
+---
+import {countries,countryStories,visits,preview} from '../lib/content';
+const data=countries.map(c=>({id:c.country_id,code:c.iso_alpha2,name:c.name_lt,href:'/salys/'+c.iso_alpha2.toLowerCase()+'/',center:c.label_point,hasStories:countryStories(c.country_id).length>0,visited:visits.some(v=>v.countryId===c.country_id&&v.status==='visited')}));
+---
+<div class="globe-shell" data-globe data-ready="false">
+<div class="globe-topline"><span>ŽEMĖ DABAR</span><time data-earth-clock></time></div>
+<div class="globe-poster" aria-hidden="true"></div>
+<div class="globe-stage" role="group" aria-label="Interaktyvus Žemės gaublys"></div>
+<div class="globe-status" role="status" aria-live="polite"><span>Ruošiamas gaublys. Šalis jau galite rasti paieškoje.</span></div>
+<div class="globe-tooltip" hidden></div>
+<div class="moon-caption" hidden><span></span><small>Mastelis ir vieta schemiški</small></div>
+<p class="globe-hint">Pasukite · priartinkite · pasirinkite šalį</p>
+<button class="touch-enable" aria-pressed="false">Valdyti gaublį</button>
+<div class="globe-controls"><button data-pause aria-label="Sustabdyti sukimąsi" disabled>Pauzė Ⅱ</button><button data-zoom-in aria-label="Priartinti gaublį" disabled>+</button><button data-zoom-out aria-label="Atitolinti gaublį" disabled>−</button><button data-home aria-label="Grįžti į Europą" disabled>⌂</button></div>
+<script type="application/json" data-globe-data set:html={JSON.stringify(data).replace(/</g,'\\u003c')}/>
+</div>
+<script>
+const shell=document.querySelector<HTMLElement>('[data-globe]');
+if(shell){let started=false;const start=async()=>{if(started)return;started=true;const status=shell.querySelector('.globe-status')!;const clock=shell.querySelector('[data-earth-clock]')!;clock.textContent=new Intl.DateTimeFormat('lt',{hour:'2-digit',minute:'2-digit',timeZone:'UTC'}).format(new Date())+' UTC';
+ try{
+  if(new URLSearchParams(location.search).has('be-3d'))throw Error('Pasirinktas režimas be 3D.');
+  const canvas=document.createElement('canvas');const context=canvas.getContext('webgl2');if(!context)throw Error('Ši naršyklė šiuo metu negali parodyti 3D gaublio.');context.getExtension('WEBGL_lose_context')?.loseContext();
+  const module=await import('../lib/globe');await module.mountGlobe(shell);
+ }catch(e){console.error('TTJ globe:', e);shell.dataset.failure=e instanceof Error?e.message:'unknown';shell.dataset.ready='false';status.replaceChildren();const p=document.createElement('p');p.textContent='Gaublio parodyti nepavyko. Visos istorijos pasiekiamos šalių sąraše.';const a=document.createElement('a');a.href='/salys/';a.textContent='Atverti šalių sąrašą →';const retry=document.createElement('button');retry.textContent='Bandyti dar kartą';retry.addEventListener('click',()=>{location.href=location.pathname;});status.append(p,a,retry);shell.dataset.error='true';}
+};new IntersectionObserver((entries,observer)=>{if(entries.some(x=>x.isIntersecting)){observer.disconnect();setTimeout(start,100);}}, {rootMargin:'150px'}).observe(shell);}
+</script>

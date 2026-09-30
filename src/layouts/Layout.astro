@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+import '@fontsource-variable/cormorant-garamond';
+import '@fontsource-variable/cormorant-garamond/wght-italic.css';
+import '@fontsource-variable/manrope';
+import {preview} from '../lib/content';
+const {title='Tomas Travel Journal',description='Tomo Gaižausko kelionių užrašai. Šalys, istorijos ir maršrutai.',dark=false}=Astro.props;
+---
+<!doctype html><html lang="lt"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content={description}/><meta name="theme-color" content={dark?'#08151c':'#f3f0e7'}/><meta name="robots" content="noindex,nofollow"/><title>{title}</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"/></head>
+<body class:list={[{dark}]}>
+<a class="skip" href="#main">Pereiti prie turinio</a>
+{preview&&<div class="preview-note"><span>BANDOMOJI SVETAINĖ</span><span>Sintetinis turinys · ne Tomo kelionių faktai</span></div>}
+<header class="header wrap"><a href="/" class="brand" aria-label="Tomas Travel Journal pradžia"><svg width="36" height="36" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor"/><ellipse cx="20" cy="20" rx="8" ry="17" stroke="currentColor"/><path d="M3 20h34M7 9c8 5 18 5 26 0M7 31c8-5 18-5 26 0" stroke="currentColor"/></svg><span>TOMAS<small>TRAVEL JOURNAL</small></span></a><nav aria-label="Pagrindinė navigacija"><a href="/#gaublys">Gaublys</a><a href="/salys/">Šalys</a><a href="/istorijos/">Istorijos</a></nav><span class="header-byline">KELIONIŲ UŽRAŠAI</span></header>
+<main id="main"><slot/></main>
+<footer class="footer wrap"><a class="footer-brand" href="/">Tomas Travel Journal</a><p>Tomo Gaižausko kelionių užrašai</p><a href="/saltiniai/">Žemėlapio ir vaizdų šaltiniai ↗</a></footer>
+</body></html>

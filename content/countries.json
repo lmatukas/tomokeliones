@@ -1,0 +1,4970 @@
+{
+  "schema_version": 1,
+  "catalog_version": "193plus2-1.0.0",
+  "geography_version": "world-atlas-2.0.2-ttj-crimea-1",
+  "continent_policy": "UN M49; Northern/Central America and Caribbean = NA; provisional project policy",
+  "sources": [
+    "https://www.un.org/en/about-us/member-states",
+    "https://www.un.org/en/about-us/non-member-states",
+    "https://unstats.un.org/unsd/methodology/m49/overview/"
+  ],
+  "countries": [
+    {
+      "country_id": "44e5363a-2d1f-538e-ab82-125f217a6f43",
+      "iso_alpha2": "AL",
+      "iso_alpha3": "ALB",
+      "iso_numeric": "008",
+      "name_lt": "Albanija",
+      "name_en": "Albania",
+      "slug": "al",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "008|Albania"
+      ],
+      "label_point": [
+        20.05175112333234,
+        41.13491997557124
+      ]
+    },
+    {
+      "country_id": "bf77ede0-4058-5a54-ac7e-73808762a460",
+      "iso_alpha2": "AD",
+      "iso_alpha3": "AND",
+      "iso_numeric": "020",
+      "name_lt": "Andora",
+      "name_en": "Andorra",
+      "slug": "ad",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "020|Andorra"
+      ],
+      "label_point": [
+        1.5606464885897462,
+        42.54201126676123
+      ]
+    },
+    {
+      "country_id": "d63bf988-1146-5373-adb1-14f7291b8319",
+      "iso_alpha2": "AT",
+      "iso_alpha3": "AUT",
+      "iso_numeric": "040",
+      "name_lt": "Austrija",
+      "name_en": "Austria",
+      "slug": "at",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "040|Austria"
+      ],
+      "label_point": [
+        14.110275265783176,
+        47.59234483529681
+      ]
+    },
+    {
+      "country_id": "692a787b-7d3a-5995-a8ba-f839d2b78332",
+      "iso_alpha2": "BY",
+      "iso_alpha3": "BLR",
+      "iso_numeric": "112",
+      "name_lt": "Baltarusija",
+      "name_en": "Belarus",
+      "slug": "by",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "112|Belarus"
+      ],
+      "label_point": [
+        28.015524672247533,
+        53.519484346643004
+      ]
+    },
+    {
+      "country_id": "4b208734-fd42-5653-a9dd-df1e119954c3",
+      "iso_alpha2": "BE",
+      "iso_alpha3": "BEL",
+      "iso_numeric": "056",
+      "name_lt": "Belgija",
+      "name_en": "Belgium",
+      "slug": "be",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "056|Belgium"
+      ],
+      "label_point": [
+        4.646360603711718,
+        50.638787148007495
+      ]
+    },
+    {
+      "country_id": "19b7bf88-6e11-5f0e-a67c-5392aa51756d",
+      "iso_alpha2": "BA",
+      "iso_alpha3": "BIH",
+      "iso_numeric": "070",
+      "name_lt": "Bosnija ir Hercegovina",
+      "name_en": "Bosnia and Herzegovina",
+      "slug": "ba",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "070|Bosnia and Herz."
+      ],
+      "label_point": [
+        17.774781292505967,
+        44.17142233870694
+      ]
+    },
+    {
+      "country_id": "f773041c-bcf9-557c-ab52-f42872a6fe66",
+      "iso_alpha2": "BG",
+      "iso_alpha3": "BGR",
+      "iso_numeric": "100",
+      "name_lt": "Bulgarija",
+      "name_en": "Bulgaria",
+      "slug": "bg",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "100|Bulgaria"
+      ],
+      "label_point": [
+        25.208917962760147,
+        42.77132868442419
+      ]
+    },
+    {
+      "country_id": "f38e2584-7fe6-52b5-a884-c14d2524c015",
+      "iso_alpha2": "HR",
+      "iso_alpha3": "HRV",
+      "iso_numeric": "191",
+      "name_lt": "Kroatija",
+      "name_en": "Croatia",
+      "slug": "hr",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "191|Croatia"
+      ],
+      "label_point": [
+        16.40099663759752,
+        45.07583262357101
+      ]
+    },
+    {
+      "country_id": "519abaef-0da1-5b83-ac89-9171cf136f56",
+      "iso_alpha2": "CZ",
+      "iso_alpha3": "CZE",
+      "iso_numeric": "203",
+      "name_lt": "Čekija",
+      "name_en": "Czech Republic",
+      "slug": "cz",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "203|Czechia"
+      ],
+      "label_point": [
+        15.319496749269478,
+        49.73798136333449
+      ]
+    },
+    {
+      "country_id": "a3ee0921-afca-5313-a9e9-a62327dbddea",
+      "iso_alpha2": "DK",
+      "iso_alpha3": "DNK",
+      "iso_numeric": "208",
+      "name_lt": "Danija",
+      "name_en": "Denmark",
+      "slug": "dk",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "208|Denmark"
+      ],
+      "label_point": [
+        10.042398641339194,
+        55.97511528034877
+      ]
+    },
+    {
+      "country_id": "773d0c51-3eda-52a6-aae4-192bc9f76021",
+      "iso_alpha2": "EE",
+      "iso_alpha3": "EST",
+      "iso_numeric": "233",
+      "name_lt": "Estija",
+      "name_en": "Estonia",
+      "slug": "ee",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "233|Estonia"
+      ],
+      "label_point": [
+        25.545276167433688,
+        58.672670514530495
+      ]
+    },
+    {
+      "country_id": "fe24442d-c848-5c26-abde-07bbd5f1ef9d",
+      "iso_alpha2": "FI",
+      "iso_alpha3": "FIN",
+      "iso_numeric": "246",
+      "name_lt": "Suomija",
+      "name_en": "Finland",
+      "slug": "fi",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "246|Finland"
+      ],
+      "label_point": [
+        26.194979089331937,
+        64.2551505800052
+      ]
+    },
+    {
+      "country_id": "1788e5f4-aca1-5826-a69f-d2e0eb128e25",
+      "iso_alpha2": "FR",
+      "iso_alpha3": "FRA",
+      "iso_numeric": "250",
+      "name_lt": "Prancūzija",
+      "name_en": "France",
+      "slug": "fr",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "250|France"
+      ],
+      "label_point": [
+        -6.676661461398807,
+        42.954839304715776
+      ]
+    },
+    {
+      "country_id": "be0a5258-b6db-5a40-a47b-50e311614ba4",
+      "iso_alpha2": "DE",
+      "iso_alpha3": "DEU",
+      "iso_numeric": "276",
+      "name_lt": "Vokietija",
+      "name_en": "Germany",
+      "slug": "de",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "276|Germany"
+      ],
+      "label_point": [
+        10.36436515050091,
+        51.05061383670596
+      ]
+    },
+    {
+      "country_id": "bdf4a3da-48ef-56d4-a816-4992b1fd8f50",
+      "iso_alpha2": "GR",
+      "iso_alpha3": "GRC",
+      "iso_numeric": "300",
+      "name_lt": "Graikija",
+      "name_en": "Greece",
+      "slug": "gr",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "300|Greece"
+      ],
+      "label_point": [
+        22.964560660451347,
+        39.04788049749538
+      ]
+    },
+    {
+      "country_id": "64607565-f89d-5644-a07f-941cd1c70d8a",
+      "iso_alpha2": "VA",
+      "iso_alpha3": "VAT",
+      "iso_numeric": "336",
+      "name_lt": "Vatikanas",
+      "name_en": "Holy See (Vatican City State)",
+      "slug": "va",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "336|Vatican"
+      ],
+      "label_point": [
+        12.434324379616687,
+        41.90209238063789
+      ]
+    },
+    {
+      "country_id": "8237e011-2457-5a67-a5e9-dd8dd42bfcf8",
+      "iso_alpha2": "HU",
+      "iso_alpha3": "HUN",
+      "iso_numeric": "348",
+      "name_lt": "Vengrija",
+      "name_en": "Hungary",
+      "slug": "hu",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "348|Hungary"
+      ],
+      "label_point": [
+        19.379270765483223,
+        47.16592270582836
+      ]
+    },
+    {
+      "country_id": "bda67ab8-dd60-5df1-a116-9f73ef0de2b2",
+      "iso_alpha2": "IS",
+      "iso_alpha3": "ISL",
+      "iso_numeric": "352",
+      "name_lt": "Islandija",
+      "name_en": "Iceland",
+      "slug": "is",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "352|Iceland"
+      ],
+      "label_point": [
+        -18.580097094361786,
+        64.99794292080661
+      ]
+    },
+    {
+      "country_id": "7764efa7-b59a-5980-a984-484574fc5082",
+      "iso_alpha2": "IE",
+      "iso_alpha3": "IRL",
+      "iso_numeric": "372",
+      "name_lt": "Airija",
+      "name_en": "Ireland",
+      "slug": "ie",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "372|Ireland"
+      ],
+      "label_point": [
+        -8.14590398252281,
+        53.16233423936298
+      ]
+    },
+    {
+      "country_id": "6851a41d-5151-5a8e-aed4-a424b4db9770",
+      "iso_alpha2": "IT",
+      "iso_alpha3": "ITA",
+      "iso_numeric": "380",
+      "name_lt": "Italija",
+      "name_en": "Italy",
+      "slug": "it",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "380|Italy"
+      ],
+      "label_point": [
+        12.200688765327396,
+        42.71596544420155
+      ]
+    },
+    {
+      "country_id": "040586e6-7322-5868-a24c-99cd31dc9a02",
+      "iso_alpha2": "LV",
+      "iso_alpha3": "LVA",
+      "iso_numeric": "428",
+      "name_lt": "Latvija",
+      "name_en": "Latvia",
+      "slug": "lv",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "428|Latvia"
+      ],
+      "label_point": [
+        24.920285108845977,
+        56.8595715078024
+      ]
+    },
+    {
+      "country_id": "f2637905-223f-5724-a92e-b57d098616a9",
+      "iso_alpha2": "LI",
+      "iso_alpha3": "LIE",
+      "iso_numeric": "438",
+      "name_lt": "Lichtenšteinas",
+      "name_en": "Liechtenstein",
+      "slug": "li",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "438|Liechtenstein"
+      ],
+      "label_point": [
+        9.535748139062376,
+        47.13666553205226
+      ]
+    },
+    {
+      "country_id": "768f30cf-574b-5248-9953-ec705fed4599",
+      "iso_alpha2": "LT",
+      "iso_alpha3": "LTU",
+      "iso_numeric": "440",
+      "name_lt": "Lietuva",
+      "name_en": "Lithuania",
+      "slug": "lt",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "440|Lithuania"
+      ],
+      "label_point": [
+        23.9,
+        55.2
+      ]
+    },
+    {
+      "country_id": "f18e8e04-034f-50e9-ab02-d085bb360d53",
+      "iso_alpha2": "LU",
+      "iso_alpha3": "LUX",
+      "iso_numeric": "442",
+      "name_lt": "Liuksemburgas",
+      "name_en": "Luxembourg",
+      "slug": "lu",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "442|Luxembourg"
+      ],
+      "label_point": [
+        6.072199160181989,
+        49.76691849203629
+      ]
+    },
+    {
+      "country_id": "c87a880e-067d-5418-aec5-b4bc97cddecd",
+      "iso_alpha2": "MT",
+      "iso_alpha3": "MLT",
+      "iso_numeric": "470",
+      "name_lt": "Malta",
+      "name_en": "Malta",
+      "slug": "mt",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "470|Malta"
+      ],
+      "label_point": [
+        14.40504983302517,
+        35.921510961667956
+      ]
+    },
+    {
+      "country_id": "7291743f-054c-5f04-afe7-7d8a3e865202",
+      "iso_alpha2": "MD",
+      "iso_alpha3": "MDA",
+      "iso_numeric": "498",
+      "name_lt": "Moldova",
+      "name_en": "Moldova, Republic of",
+      "slug": "md",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "498|Moldova"
+      ],
+      "label_point": [
+        28.46610477263662,
+        47.187045977095245
+      ]
+    },
+    {
+      "country_id": "76d24e8d-17f9-5a1c-aba6-36b770a03a63",
+      "iso_alpha2": "MC",
+      "iso_alpha3": "MCO",
+      "iso_numeric": "492",
+      "name_lt": "Monakas",
+      "name_en": "Monaco",
+      "slug": "mc",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "492|Monaco"
+      ],
+      "label_point": [
+        7.4072580962592225,
+        43.75256144632939
+      ]
+    },
+    {
+      "country_id": "7dcdbe1a-e7fb-599c-a24d-d969b10e6632",
+      "iso_alpha2": "ME",
+      "iso_alpha3": "MNE",
+      "iso_numeric": "499",
+      "name_lt": "Juodkalnija",
+      "name_en": "Montenegro",
+      "slug": "me",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "499|Montenegro"
+      ],
+      "label_point": [
+        19.238673537007774,
+        42.78791252342967
+      ]
+    },
+    {
+      "country_id": "23999d90-66ac-589f-a877-86099550eea2",
+      "iso_alpha2": "NL",
+      "iso_alpha3": "NLD",
+      "iso_numeric": "528",
+      "name_lt": "Nyderlandai",
+      "name_en": "Netherlands",
+      "slug": "nl",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "528|Netherlands"
+      ],
+      "label_point": [
+        4.982692073323069,
+        52.22643784863761
+      ]
+    },
+    {
+      "country_id": "8518c7a2-d2c4-5df2-a41e-56f8128ee3ac",
+      "iso_alpha2": "MK",
+      "iso_alpha3": "MKD",
+      "iso_numeric": "807",
+      "name_lt": "Šiaurės Makedonija",
+      "name_en": "The Republic of North Macedonia",
+      "slug": "mk",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "807|Macedonia"
+      ],
+      "label_point": [
+        21.680697722542575,
+        41.59534873983856
+      ]
+    },
+    {
+      "country_id": "9c4aa4fb-8c57-520f-a363-cb4c2f96319b",
+      "iso_alpha2": "NO",
+      "iso_alpha3": "NOR",
+      "iso_numeric": "578",
+      "name_lt": "Norvegija",
+      "name_en": "Norway",
+      "slug": "no",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "578|Norway"
+      ],
+      "label_point": [
+        10,
+        62
+      ]
+    },
+    {
+      "country_id": "3022a3e0-a24b-576d-ad5a-82d675cb46d6",
+      "iso_alpha2": "PL",
+      "iso_alpha3": "POL",
+      "iso_numeric": "616",
+      "name_lt": "Lenkija",
+      "name_en": "Poland",
+      "slug": "pl",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "616|Poland"
+      ],
+      "label_point": [
+        19.41977988145293,
+        52.1119062840005
+      ]
+    },
+    {
+      "country_id": "5a23f0cc-a891-5bb3-a756-b6e7285c64e3",
+      "iso_alpha2": "PT",
+      "iso_alpha3": "PRT",
+      "iso_numeric": "620",
+      "name_lt": "Portugalija",
+      "name_en": "Portugal",
+      "slug": "pt",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "620|Portugal"
+      ],
+      "label_point": [
+        -8.529151124237313,
+        39.60640147821539
+      ]
+    },
+    {
+      "country_id": "cd3d1494-696a-526f-ab2f-2e20d649e2ad",
+      "iso_alpha2": "RO",
+      "iso_alpha3": "ROU",
+      "iso_numeric": "642",
+      "name_lt": "Rumunija",
+      "name_en": "Romania",
+      "slug": "ro",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "642|Romania"
+      ],
+      "label_point": [
+        24.98301437469897,
+        45.848578552054576
+      ]
+    },
+    {
+      "country_id": "c1db4869-653b-5792-a744-6ee417bf4e6d",
+      "iso_alpha2": "RU",
+      "iso_alpha3": "RUS",
+      "iso_numeric": "643",
+      "name_lt": "Rusija",
+      "name_en": "Russian Federation",
+      "slug": "ru",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "643|Russia"
+      ],
+      "label_point": [
+        90,
+        58
+      ]
+    },
+    {
+      "country_id": "ee5639b1-4e31-5b26-a3c4-ce5e0c0575ed",
+      "iso_alpha2": "SM",
+      "iso_alpha3": "SMR",
+      "iso_numeric": "674",
+      "name_lt": "San Marinas",
+      "name_en": "San Marino",
+      "slug": "sm",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "674|San Marino"
+      ],
+      "label_point": [
+        12.459438521506778,
+        43.941527392799635
+      ]
+    },
+    {
+      "country_id": "fd02fcbd-01fa-5760-a373-2d24d001f85e",
+      "iso_alpha2": "RS",
+      "iso_alpha3": "SRB",
+      "iso_numeric": "688",
+      "name_lt": "Serbija",
+      "name_en": "Serbia",
+      "slug": "rs",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "688|Serbia"
+      ],
+      "label_point": [
+        20.806381212673223,
+        44.21142213902973
+      ]
+    },
+    {
+      "country_id": "58266169-a1d2-5066-a372-0058555b9496",
+      "iso_alpha2": "SK",
+      "iso_alpha3": "SVK",
+      "iso_numeric": "703",
+      "name_lt": "Slovakija",
+      "name_en": "Slovakia",
+      "slug": "sk",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "703|Slovakia"
+      ],
+      "label_point": [
+        19.469154427759364,
+        48.71128151262859
+      ]
+    },
+    {
+      "country_id": "3ad135d4-6659-530a-a58f-b6a07a924404",
+      "iso_alpha2": "SI",
+      "iso_alpha3": "SVN",
+      "iso_numeric": "705",
+      "name_lt": "Slovėnija",
+      "name_en": "Slovenia",
+      "slug": "si",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "705|Slovenia"
+      ],
+      "label_point": [
+        14.80088229841095,
+        46.11614598055632
+      ]
+    },
+    {
+      "country_id": "d9f4eaee-1b89-514d-a735-4a268188948f",
+      "iso_alpha2": "ES",
+      "iso_alpha3": "ESP",
+      "iso_numeric": "724",
+      "name_lt": "Ispanija",
+      "name_en": "Spain",
+      "slug": "es",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "724|Spain"
+      ],
+      "label_point": [
+        -3.7037676086903666,
+        40.20739497355261
+      ]
+    },
+    {
+      "country_id": "74a1b38b-c5c6-57ff-a419-026014c575bd",
+      "iso_alpha2": "SE",
+      "iso_alpha3": "SWE",
+      "iso_numeric": "752",
+      "name_lt": "Švedija",
+      "name_en": "Sweden",
+      "slug": "se",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "752|Sweden"
+      ],
+      "label_point": [
+        16.266969067756254,
+        62.38337287893733
+      ]
+    },
+    {
+      "country_id": "f3db946c-626c-5ec3-ae30-fcfc63b74105",
+      "iso_alpha2": "CH",
+      "iso_alpha3": "CHE",
+      "iso_numeric": "756",
+      "name_lt": "Šveicarija",
+      "name_en": "Switzerland",
+      "slug": "ch",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "756|Switzerland"
+      ],
+      "label_point": [
+        8.206043751498328,
+        46.798893738631655
+      ]
+    },
+    {
+      "country_id": "9e882514-21e5-5a15-ab08-531fd9ddabe0",
+      "iso_alpha2": "UA",
+      "iso_alpha3": "UKR",
+      "iso_numeric": "804",
+      "name_lt": "Ukraina",
+      "name_en": "Ukraine",
+      "slug": "ua",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "804|Ukraine"
+      ],
+      "label_point": [
+        31.462740374938605,
+        49.02179716161062
+      ]
+    },
+    {
+      "country_id": "f2c359b3-ac0d-564e-a669-872589c97d00",
+      "iso_alpha2": "GB",
+      "iso_alpha3": "GBR",
+      "iso_numeric": "826",
+      "name_lt": "Jungtinė Karalystė",
+      "name_en": "United Kingdom",
+      "slug": "gb",
+      "continent_id": "EU",
+      "counted": true,
+      "geo_keys": [
+        "826|United Kingdom"
+      ],
+      "label_point": [
+        -2.758105365723146,
+        54.01148927126155
+      ]
+    },
+    {
+      "country_id": "e63c99e6-da65-5594-a6e8-e83fc302ebfa",
+      "iso_alpha2": "AF",
+      "iso_alpha3": "AFG",
+      "iso_numeric": "004",
+      "name_lt": "Afganistanas",
+      "name_en": "Afghanistan",
+      "slug": "af",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "004|Afghanistan"
+      ],
+      "label_point": [
+        65.925899147139,
+        33.81880137672014
+      ]
+    },
+    {
+      "country_id": "f29fb674-0ed3-50da-af1b-c16967f35cc5",
+      "iso_alpha2": "AM",
+      "iso_alpha3": "ARM",
+      "iso_numeric": "051",
+      "name_lt": "Armėnija",
+      "name_en": "Armenia",
+      "slug": "am",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "051|Armenia"
+      ],
+      "label_point": [
+        44.938265646849416,
+        40.28780654696867
+      ]
+    },
+    {
+      "country_id": "7cd72ee7-30cf-52a6-aba5-cfd85ba178bc",
+      "iso_alpha2": "AZ",
+      "iso_alpha3": "AZE",
+      "iso_numeric": "031",
+      "name_lt": "Azerbaidžanas",
+      "name_en": "Azerbaijan",
+      "slug": "az",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "031|Azerbaijan"
+      ],
+      "label_point": [
+        47.54794600254647,
+        40.28660348340181
+      ]
+    },
+    {
+      "country_id": "1d74eb2f-9524-56e0-a11f-1ebd62ed6dc8",
+      "iso_alpha2": "BH",
+      "iso_alpha3": "BHR",
+      "iso_numeric": "048",
+      "name_lt": "Bahreinas",
+      "name_en": "Bahrain",
+      "slug": "bh",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "048|Bahrain"
+      ],
+      "label_point": [
+        50.54245623441757,
+        26.04170548135867
+      ]
+    },
+    {
+      "country_id": "609597f6-6739-5f53-a573-99b0ecaca1d5",
+      "iso_alpha2": "BD",
+      "iso_alpha3": "BGD",
+      "iso_numeric": "050",
+      "name_lt": "Bangladešas",
+      "name_en": "Bangladesh",
+      "slug": "bd",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "050|Bangladesh"
+      ],
+      "label_point": [
+        90.24708149253766,
+        23.860940075339926
+      ]
+    },
+    {
+      "country_id": "11ad7470-8e7b-5ec7-a3b9-2b5b3a53b01e",
+      "iso_alpha2": "BT",
+      "iso_alpha3": "BTN",
+      "iso_numeric": "064",
+      "name_lt": "Butanas",
+      "name_en": "Bhutan",
+      "slug": "bt",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "064|Bhutan"
+      ],
+      "label_point": [
+        90.40209982016522,
+        27.41233946250233
+      ]
+    },
+    {
+      "country_id": "fba8fe4a-f404-58a7-a61a-8b2400530a79",
+      "iso_alpha2": "BN",
+      "iso_alpha3": "BRN",
+      "iso_numeric": "096",
+      "name_lt": "Brunėjus",
+      "name_en": "Brunei Darussalam",
+      "slug": "bn",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "096|Brunei"
+      ],
+      "label_point": [
+        114.72164273142663,
+        4.519834203436234
+      ]
+    },
+    {
+      "country_id": "007fbf0e-d19b-53c0-aeed-dba6a3a57cdb",
+      "iso_alpha2": "KH",
+      "iso_alpha3": "KHM",
+      "iso_numeric": "116",
+      "name_lt": "Kambodža",
+      "name_en": "Cambodia",
+      "slug": "kh",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "116|Cambodia"
+      ],
+      "label_point": [
+        104.90503974863627,
+        12.719469421212631
+      ]
+    },
+    {
+      "country_id": "15480d3b-409d-56f9-aa4e-fbc57f1426cf",
+      "iso_alpha2": "CN",
+      "iso_alpha3": "CHN",
+      "iso_numeric": "156",
+      "name_lt": "Kinija",
+      "name_en": "People's Republic of China",
+      "slug": "cn",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "156|China"
+      ],
+      "label_point": [
+        103.37810150759312,
+        36.691388496056305
+      ]
+    },
+    {
+      "country_id": "3f374422-7ca4-5fd4-a4f7-5d590115b99f",
+      "iso_alpha2": "CY",
+      "iso_alpha3": "CYP",
+      "iso_numeric": "196",
+      "name_lt": "Kipras",
+      "name_en": "Cyprus",
+      "slug": "cy",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "196|Cyprus"
+      ],
+      "label_point": [
+        33.005622208469475,
+        34.91721086596974
+      ]
+    },
+    {
+      "country_id": "150afc34-5d3b-51a4-ae79-5d2e2e42fb4b",
+      "iso_alpha2": "GE",
+      "iso_alpha3": "GEO",
+      "iso_numeric": "268",
+      "name_lt": "Sakartvelas",
+      "name_en": "Georgia",
+      "slug": "ge",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "268|Georgia"
+      ],
+      "label_point": [
+        43.524173704732675,
+        42.173099001180866
+      ]
+    },
+    {
+      "country_id": "dbc8d639-b42e-5eac-a932-e36602109c9e",
+      "iso_alpha2": "IN",
+      "iso_alpha3": "IND",
+      "iso_numeric": "356",
+      "name_lt": "Indija",
+      "name_en": "India",
+      "slug": "in",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "356|India"
+      ],
+      "label_point": [
+        79.56373385813113,
+        22.77663124583421
+      ]
+    },
+    {
+      "country_id": "c91e4f89-48ba-5725-aa1b-fa583f142301",
+      "iso_alpha2": "ID",
+      "iso_alpha3": "IDN",
+      "iso_numeric": "360",
+      "name_lt": "Indonezija",
+      "name_en": "Indonesia",
+      "slug": "id",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "360|Indonesia"
+      ],
+      "label_point": [
+        117.1807295261756,
+        -2.264347774253769
+      ]
+    },
+    {
+      "country_id": "71dd1176-e2f1-5ecd-a089-4b503b1930c2",
+      "iso_alpha2": "IR",
+      "iso_alpha3": "IRN",
+      "iso_numeric": "364",
+      "name_lt": "Iranas",
+      "name_en": "Islamic Republic of Iran",
+      "slug": "ir",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "364|Iran"
+      ],
+      "label_point": [
+        54.44081007201602,
+        32.52730565874225
+      ]
+    },
+    {
+      "country_id": "db573649-fa16-527b-adfc-4d9d78fe60f1",
+      "iso_alpha2": "IQ",
+      "iso_alpha3": "IRQ",
+      "iso_numeric": "368",
+      "name_lt": "Irakas",
+      "name_en": "Iraq",
+      "slug": "iq",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "368|Iraq"
+      ],
+      "label_point": [
+        43.77374821115739,
+        33.00958211428088
+      ]
+    },
+    {
+      "country_id": "cc967a5e-a52e-5082-a136-0c069849c480",
+      "iso_alpha2": "IL",
+      "iso_alpha3": "ISR",
+      "iso_numeric": "376",
+      "name_lt": "Izraelis",
+      "name_en": "Israel",
+      "slug": "il",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "376|Israel"
+      ],
+      "label_point": [
+        34.99974081606207,
+        31.451622981312703
+      ]
+    },
+    {
+      "country_id": "859baccd-058a-5d28-a56c-6d988359f33d",
+      "iso_alpha2": "JP",
+      "iso_alpha3": "JPN",
+      "iso_numeric": "392",
+      "name_lt": "Japonija",
+      "name_en": "Japan",
+      "slug": "jp",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "392|Japan"
+      ],
+      "label_point": [
+        137.6604063963343,
+        37.46108421187739
+      ]
+    },
+    {
+      "country_id": "58fbe776-b594-5e5a-a6b2-4880e064f7d4",
+      "iso_alpha2": "JO",
+      "iso_alpha3": "JOR",
+      "iso_numeric": "400",
+      "name_lt": "Jordanija",
+      "name_en": "Jordan",
+      "slug": "jo",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "400|Jordan"
+      ],
+      "label_point": [
+        36.757475371295584,
+        31.2385238762092
+      ]
+    },
+    {
+      "country_id": "a3ec473b-aec0-5bcc-aba6-da37230ff1b3",
+      "iso_alpha2": "KZ",
+      "iso_alpha3": "KAZ",
+      "iso_numeric": "398",
+      "name_lt": "Kazachstanas",
+      "name_en": "Kazakhstan",
+      "slug": "kz",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "398|Kazakhstan"
+      ],
+      "label_point": [
+        67.24559732985485,
+        48.36174286528355
+      ]
+    },
+    {
+      "country_id": "004b90f7-dbe9-5526-ac4f-55d570efa9d4",
+      "iso_alpha2": "KW",
+      "iso_alpha3": "KWT",
+      "iso_numeric": "414",
+      "name_lt": "Kuveitas",
+      "name_en": "Kuwait",
+      "slug": "kw",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "414|Kuwait"
+      ],
+      "label_point": [
+        47.58821132790608,
+        29.333254304380652
+      ]
+    },
+    {
+      "country_id": "0937ae25-0f7c-57ea-a024-7bfcf4dbe5d1",
+      "iso_alpha2": "KG",
+      "iso_alpha3": "KGZ",
+      "iso_numeric": "417",
+      "name_lt": "Kirgizija",
+      "name_en": "Kyrgyzstan",
+      "slug": "kg",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "417|Kyrgyzstan"
+      ],
+      "label_point": [
+        74.5091717668586,
+        41.474414858902804
+      ]
+    },
+    {
+      "country_id": "b97943b6-8f34-5fa1-aa96-9419eaa6faac",
+      "iso_alpha2": "LA",
+      "iso_alpha3": "LAO",
+      "iso_numeric": "418",
+      "name_lt": "Laosas",
+      "name_en": "Lao People's Democratic Republic",
+      "slug": "la",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "418|Laos"
+      ],
+      "label_point": [
+        103.77524083846093,
+        18.487224043477294
+      ]
+    },
+    {
+      "country_id": "5a668ec1-d9ee-59a8-ab9f-d8d00e7e3eee",
+      "iso_alpha2": "LB",
+      "iso_alpha3": "LBN",
+      "iso_numeric": "422",
+      "name_lt": "Libanas",
+      "name_en": "Lebanon",
+      "slug": "lb",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "422|Lebanon"
+      ],
+      "label_point": [
+        35.87799817639761,
+        33.921224329824256
+      ]
+    },
+    {
+      "country_id": "41c88b91-5960-5ee0-a0b0-5b93ee473fc4",
+      "iso_alpha2": "MY",
+      "iso_alpha3": "MYS",
+      "iso_numeric": "458",
+      "name_lt": "Malaizija",
+      "name_en": "Malaysia",
+      "slug": "my",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "458|Malaysia"
+      ],
+      "label_point": [
+        109.69976522420686,
+        3.8111227950508746
+      ]
+    },
+    {
+      "country_id": "1552350a-2541-55ad-adb7-f3ecf55246d1",
+      "iso_alpha2": "MV",
+      "iso_alpha3": "MDV",
+      "iso_numeric": "462",
+      "name_lt": "Maldyvai",
+      "name_en": "Maldives",
+      "slug": "mv",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "462|Maldives"
+      ],
+      "label_point": [
+        73.45729027936072,
+        3.731572963771214
+      ]
+    },
+    {
+      "country_id": "10e3d14c-fe25-5f4d-a1b9-161fcc649a63",
+      "iso_alpha2": "MN",
+      "iso_alpha3": "MNG",
+      "iso_numeric": "496",
+      "name_lt": "Mongolija",
+      "name_en": "Mongolia",
+      "slug": "mn",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "496|Mongolia"
+      ],
+      "label_point": [
+        103.12407720658537,
+        46.95618142338117
+      ]
+    },
+    {
+      "country_id": "3daea54a-7ce2-511d-ad76-5d0d3138e806",
+      "iso_alpha2": "MM",
+      "iso_alpha3": "MMR",
+      "iso_numeric": "104",
+      "name_lt": "Mianmaras (Birma)",
+      "name_en": "Myanmar",
+      "slug": "mm",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "104|Myanmar"
+      ],
+      "label_point": [
+        96.4948357870705,
+        21.112967832007413
+      ]
+    },
+    {
+      "country_id": "be3a669b-3fe3-510b-a2d4-d904ccf29453",
+      "iso_alpha2": "NP",
+      "iso_alpha3": "NPL",
+      "iso_numeric": "524",
+      "name_lt": "Nepalas",
+      "name_en": "Nepal",
+      "slug": "np",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "524|Nepal"
+      ],
+      "label_point": [
+        83.9473031015346,
+        28.257867479687118
+      ]
+    },
+    {
+      "country_id": "e8576cf4-bccd-555b-a6d8-04f01131c540",
+      "iso_alpha2": "KP",
+      "iso_alpha3": "PRK",
+      "iso_numeric": "408",
+      "name_lt": "Šiaurės Korėja",
+      "name_en": "North Korea",
+      "slug": "kp",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "408|North Korea"
+      ],
+      "label_point": [
+        127.15895164393821,
+        40.14012708479101
+      ]
+    },
+    {
+      "country_id": "02ad0331-d39a-5018-ab44-dcfa889eb523",
+      "iso_alpha2": "OM",
+      "iso_alpha3": "OMN",
+      "iso_numeric": "512",
+      "name_lt": "Omanas",
+      "name_en": "Oman",
+      "slug": "om",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "512|Oman"
+      ],
+      "label_point": [
+        56.06218658595836,
+        20.585991529152682
+      ]
+    },
+    {
+      "country_id": "80296a2d-5736-506a-a6ed-42dcf3bc2d11",
+      "iso_alpha2": "PK",
+      "iso_alpha3": "PAK",
+      "iso_numeric": "586",
+      "name_lt": "Pakistanas",
+      "name_en": "Pakistan",
+      "slug": "pk",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "586|Pakistan"
+      ],
+      "label_point": [
+        69.16842740869198,
+        29.883968979396336
+      ]
+    },
+    {
+      "country_id": "f8c2d28b-a109-5acb-a276-d165997825c0",
+      "iso_alpha2": "PS",
+      "iso_alpha3": "PSE",
+      "iso_numeric": "275",
+      "name_lt": "Palestina",
+      "name_en": "State of Palestine",
+      "slug": "ps",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "275|Palestine"
+      ],
+      "label_point": [
+        35.19516603295362,
+        31.915030258150686
+      ]
+    },
+    {
+      "country_id": "ca1da1ce-fccf-586d-ac33-fca00e24e19c",
+      "iso_alpha2": "PH",
+      "iso_alpha3": "PHL",
+      "iso_numeric": "608",
+      "name_lt": "Filipinai",
+      "name_en": "Philippines",
+      "slug": "ph",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "608|Philippines"
+      ],
+      "label_point": [
+        122.9193460278243,
+        11.728606411950274
+      ]
+    },
+    {
+      "country_id": "07cb70b9-bbe1-56b3-ac94-b772297d98ed",
+      "iso_alpha2": "QA",
+      "iso_alpha3": "QAT",
+      "iso_numeric": "634",
+      "name_lt": "Kataras",
+      "name_en": "Qatar",
+      "slug": "qa",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "634|Qatar"
+      ],
+      "label_point": [
+        51.18436750888732,
+        25.30480194107316
+      ]
+    },
+    {
+      "country_id": "7cc05c1f-789e-5f99-a8ce-62a54d9d168f",
+      "iso_alpha2": "SA",
+      "iso_alpha3": "SAU",
+      "iso_numeric": "682",
+      "name_lt": "Saudo Arabija",
+      "name_en": "Saudi Arabia",
+      "slug": "sa",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "682|Saudi Arabia"
+      ],
+      "label_point": [
+        44.66316551813148,
+        24.086527584490447
+      ]
+    },
+    {
+      "country_id": "bd9b3454-ba1e-5a87-a847-c8ffd06469ae",
+      "iso_alpha2": "SG",
+      "iso_alpha3": "SGP",
+      "iso_numeric": "702",
+      "name_lt": "Singapūras",
+      "name_en": "Singapore",
+      "slug": "sg",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "702|Singapore"
+      ],
+      "label_point": [
+        103.81695626288491,
+        1.359045135937911
+      ]
+    },
+    {
+      "country_id": "776bd0a8-6fc3-59ff-a9c0-1999750f2012",
+      "iso_alpha2": "KR",
+      "iso_alpha3": "KOR",
+      "iso_numeric": "410",
+      "name_lt": "Pietų Korėja",
+      "name_en": "South Korea",
+      "slug": "kr",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "410|South Korea"
+      ],
+      "label_point": [
+        127.83501942428023,
+        36.373480595418215
+      ]
+    },
+    {
+      "country_id": "46b65492-6e60-5f81-aa14-b7b253605ae2",
+      "iso_alpha2": "LK",
+      "iso_alpha3": "LKA",
+      "iso_numeric": "144",
+      "name_lt": "Šri Lanka",
+      "name_en": "Sri Lanka",
+      "slug": "lk",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "144|Sri Lanka"
+      ],
+      "label_point": [
+        80.70159555330923,
+        7.611404682249292
+      ]
+    },
+    {
+      "country_id": "e341a0b1-4c3a-5823-aafa-2d099d7cbb24",
+      "iso_alpha2": "SY",
+      "iso_alpha3": "SYR",
+      "iso_numeric": "760",
+      "name_lt": "Sirija",
+      "name_en": "Syrian Arab Republic",
+      "slug": "sy",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "760|Syria"
+      ],
+      "label_point": [
+        38.48775429757016,
+        35.01896622055306
+      ]
+    },
+    {
+      "country_id": "cf12265b-876e-58a9-aff3-28fc91a203c3",
+      "iso_alpha2": "TJ",
+      "iso_alpha3": "TJK",
+      "iso_numeric": "762",
+      "name_lt": "Tadžikija",
+      "name_en": "Tajikistan",
+      "slug": "tj",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "762|Tajikistan"
+      ],
+      "label_point": [
+        71.0270414891491,
+        38.5365302546635
+      ]
+    },
+    {
+      "country_id": "0e3151ac-3092-57cf-a024-83905e08c647",
+      "iso_alpha2": "TH",
+      "iso_alpha3": "THA",
+      "iso_numeric": "764",
+      "name_lt": "Tailandas",
+      "name_en": "Thailand",
+      "slug": "th",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "764|Thailand"
+      ],
+      "label_point": [
+        101.00099374320905,
+        15.083065567941238
+      ]
+    },
+    {
+      "country_id": "a86c0bc4-c531-58b9-ac04-0d4a4efab56b",
+      "iso_alpha2": "TL",
+      "iso_alpha3": "TLS",
+      "iso_numeric": "626",
+      "name_lt": "Rytų Timoras",
+      "name_en": "Timor-Leste",
+      "slug": "tl",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "626|Timor-Leste"
+      ],
+      "label_point": [
+        125.84582349679613,
+        -8.829197284511134
+      ]
+    },
+    {
+      "country_id": "1392ef69-f451-532c-a336-36ee7515525d",
+      "iso_alpha2": "TR",
+      "iso_alpha3": "TUR",
+      "iso_numeric": "792",
+      "name_lt": "Turkija",
+      "name_en": "Türkiye",
+      "slug": "tr",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "792|Turkey"
+      ],
+      "label_point": [
+        35.1729633922368,
+        39.13707290920731
+      ]
+    },
+    {
+      "country_id": "8ef30289-e65a-5082-a7d7-be12386bdb6a",
+      "iso_alpha2": "TM",
+      "iso_alpha3": "TKM",
+      "iso_numeric": "795",
+      "name_lt": "Turkmėnistanas",
+      "name_en": "Turkmenistan",
+      "slug": "tm",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "795|Turkmenistan"
+      ],
+      "label_point": [
+        59.44651184290143,
+        39.125446626476545
+      ]
+    },
+    {
+      "country_id": "513e0cad-21a0-59d6-a9bb-47774f02cb68",
+      "iso_alpha2": "AE",
+      "iso_alpha3": "ARE",
+      "iso_numeric": "784",
+      "name_lt": "Jungtiniai Arabų Emyratai",
+      "name_en": "United Arab Emirates",
+      "slug": "ae",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "784|United Arab Emirates"
+      ],
+      "label_point": [
+        54.29266807627406,
+        23.905129126244116
+      ]
+    },
+    {
+      "country_id": "ff653261-1d66-5763-a031-4045e08dbf72",
+      "iso_alpha2": "UZ",
+      "iso_alpha3": "UZB",
+      "iso_numeric": "860",
+      "name_lt": "Uzbekistanas",
+      "name_en": "Uzbekistan",
+      "slug": "uz",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "860|Uzbekistan"
+      ],
+      "label_point": [
+        63.30268180847804,
+        41.77554235924722
+      ]
+    },
+    {
+      "country_id": "caeea6ce-03d5-5ac7-a663-74df3006d419",
+      "iso_alpha2": "VN",
+      "iso_alpha3": "VNM",
+      "iso_numeric": "704",
+      "name_lt": "Vietnamas",
+      "name_en": "Vietnam",
+      "slug": "vn",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "704|Vietnam"
+      ],
+      "label_point": [
+        106.34646135122732,
+        16.543770241659445
+      ]
+    },
+    {
+      "country_id": "1b30d914-241e-5a8b-ab39-7eb3dd9b9801",
+      "iso_alpha2": "YE",
+      "iso_alpha3": "YEM",
+      "iso_numeric": "887",
+      "name_lt": "Jemenas",
+      "name_en": "Yemen",
+      "slug": "ye",
+      "continent_id": "AS",
+      "counted": true,
+      "geo_keys": [
+        "887|Yemen"
+      ],
+      "label_point": [
+        47.56769007948867,
+        15.917162506139022
+      ]
+    },
+    {
+      "country_id": "a88227aa-140f-5300-a91a-767735c86e51",
+      "iso_alpha2": "DZ",
+      "iso_alpha3": "DZA",
+      "iso_numeric": "012",
+      "name_lt": "Alžyras",
+      "name_en": "Algeria",
+      "slug": "dz",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "012|Algeria"
+      ],
+      "label_point": [
+        2.6311001079842264,
+        28.055946183378527
+      ]
+    },
+    {
+      "country_id": "82842245-512f-5897-a41a-87a296229948",
+      "iso_alpha2": "AO",
+      "iso_alpha3": "AGO",
+      "iso_numeric": "024",
+      "name_lt": "Angola",
+      "name_en": "Angola",
+      "slug": "ao",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "024|Angola"
+      ],
+      "label_point": [
+        17.531910951725113,
+        -12.270672377949156
+      ]
+    },
+    {
+      "country_id": "43260122-a2aa-520b-af8b-dcf657691f2a",
+      "iso_alpha2": "BJ",
+      "iso_alpha3": "BEN",
+      "iso_numeric": "204",
+      "name_lt": "Beninas",
+      "name_en": "Benin",
+      "slug": "bj",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "204|Benin"
+      ],
+      "label_point": [
+        2.326869517230055,
+        9.635774075300189
+      ]
+    },
+    {
+      "country_id": "7a8a1a8f-2a27-5c94-a94f-4f4137de8b77",
+      "iso_alpha2": "BW",
+      "iso_alpha3": "BWA",
+      "iso_numeric": "072",
+      "name_lt": "Botsvana",
+      "name_en": "Botswana",
+      "slug": "bw",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "072|Botswana"
+      ],
+      "label_point": [
+        23.80851609494559,
+        -22.165510135562283
+      ]
+    },
+    {
+      "country_id": "0344d9cd-43ce-570c-a867-6a546912356c",
+      "iso_alpha2": "BF",
+      "iso_alpha3": "BFA",
+      "iso_numeric": "854",
+      "name_lt": "Burkina Fasas",
+      "name_en": "Burkina Faso",
+      "slug": "bf",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "854|Burkina Faso"
+      ],
+      "label_point": [
+        -1.7610686700924956,
+        12.27070874217727
+      ]
+    },
+    {
+      "country_id": "3c79270e-95be-52be-ad2e-33d0a5041672",
+      "iso_alpha2": "BI",
+      "iso_alpha3": "BDI",
+      "iso_numeric": "108",
+      "name_lt": "Burundis",
+      "name_en": "Burundi",
+      "slug": "bi",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "108|Burundi"
+      ],
+      "label_point": [
+        29.875385517901965,
+        -3.3593064852901384
+      ]
+    },
+    {
+      "country_id": "de6c0693-8b03-5d37-a5a2-f4f54c777f36",
+      "iso_alpha2": "CV",
+      "iso_alpha3": "CPV",
+      "iso_numeric": "132",
+      "name_lt": "Žaliasis Kyšulys",
+      "name_en": "Cape Verde",
+      "slug": "cv",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "132|Cabo Verde"
+      ],
+      "label_point": [
+        -23.95758148847591,
+        15.955083052724914
+      ]
+    },
+    {
+      "country_id": "25783ce6-8eeb-5872-aead-f089b4fca509",
+      "iso_alpha2": "CM",
+      "iso_alpha3": "CMR",
+      "iso_numeric": "120",
+      "name_lt": "Kamerūnas",
+      "name_en": "Cameroon",
+      "slug": "cm",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "120|Cameroon"
+      ],
+      "label_point": [
+        12.733770200157094,
+        5.681432200843567
+      ]
+    },
+    {
+      "country_id": "f7c61c97-40f7-57ce-ac8e-75aee8fdd66b",
+      "iso_alpha2": "CF",
+      "iso_alpha3": "CAF",
+      "iso_numeric": "140",
+      "name_lt": "Centrinės Afrikos Respublika",
+      "name_en": "Central African Republic",
+      "slug": "cf",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "140|Central African Rep."
+      ],
+      "label_point": [
+        20.46168454343099,
+        6.572283399907417
+      ]
+    },
+    {
+      "country_id": "898da1e3-3376-543e-a85b-66637aba4dc8",
+      "iso_alpha2": "TD",
+      "iso_alpha3": "TCD",
+      "iso_numeric": "148",
+      "name_lt": "Čadas",
+      "name_en": "Chad",
+      "slug": "td",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "148|Chad"
+      ],
+      "label_point": [
+        18.63508424343435,
+        15.275383861664743
+      ]
+    },
+    {
+      "country_id": "ebfa311f-b2d9-5236-a496-8d8c60709c00",
+      "iso_alpha2": "KM",
+      "iso_alpha3": "COM",
+      "iso_numeric": "174",
+      "name_lt": "Komorai",
+      "name_en": "Comoros",
+      "slug": "km",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "174|Comoros"
+      ],
+      "label_point": [
+        43.68438826092466,
+        -11.878995553083817
+      ]
+    },
+    {
+      "country_id": "cb9e3b82-75cf-5670-afe7-ab49036aa190",
+      "iso_alpha2": "CG",
+      "iso_alpha3": "COG",
+      "iso_numeric": "178",
+      "name_lt": "Kongas-Brazavilis",
+      "name_en": "Republic of the Congo",
+      "slug": "cg",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "178|Congo"
+      ],
+      "label_point": [
+        15.221197561814694,
+        -0.8371171481345566
+      ]
+    },
+    {
+      "country_id": "e1ae08c7-0c4c-5fd2-a4ce-0a5c4e772977",
+      "iso_alpha2": "CD",
+      "iso_alpha3": "COD",
+      "iso_numeric": "180",
+      "name_lt": "Kongas-Kinšasa",
+      "name_en": "Democratic Republic of the Congo",
+      "slug": "cd",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "180|Dem. Rep. Congo"
+      ],
+      "label_point": [
+        23.637769019471545,
+        -2.8653545998593897
+      ]
+    },
+    {
+      "country_id": "30305342-bf13-5cbf-a8c1-25d70de06825",
+      "iso_alpha2": "CI",
+      "iso_alpha3": "CIV",
+      "iso_numeric": "384",
+      "name_lt": "Dramblio Kaulo Krantas",
+      "name_en": "Cote d'Ivoire",
+      "slug": "ci",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "384|Côte d'Ivoire"
+      ],
+      "label_point": [
+        -5.5691114613102455,
+        7.625692170337771
+      ]
+    },
+    {
+      "country_id": "4b89c3f9-b2de-5b6f-a144-402a04f92776",
+      "iso_alpha2": "DJ",
+      "iso_alpha3": "DJI",
+      "iso_numeric": "262",
+      "name_lt": "Džibutis",
+      "name_en": "Djibouti",
+      "slug": "dj",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "262|Djibouti"
+      ],
+      "label_point": [
+        42.559969772838905,
+        11.748755445699818
+      ]
+    },
+    {
+      "country_id": "c5586514-60b8-50da-a7b4-03693f446db8",
+      "iso_alpha2": "EG",
+      "iso_alpha3": "EGY",
+      "iso_numeric": "818",
+      "name_lt": "Egiptas",
+      "name_en": "Egypt",
+      "slug": "eg",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "818|Egypt"
+      ],
+      "label_point": [
+        29.877917299852545,
+        26.459585778678562
+      ]
+    },
+    {
+      "country_id": "2e959614-22ee-5fe7-a69c-f468f90addfa",
+      "iso_alpha2": "GQ",
+      "iso_alpha3": "GNQ",
+      "iso_numeric": "226",
+      "name_lt": "Pusiaujo Gvinėja",
+      "name_en": "Equatorial Guinea",
+      "slug": "gq",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "226|Eq. Guinea"
+      ],
+      "label_point": [
+        10.341513972331898,
+        1.7057132568498807
+      ]
+    },
+    {
+      "country_id": "07ee834b-72a6-59bc-a54f-d7b80adafc10",
+      "iso_alpha2": "ER",
+      "iso_alpha3": "ERI",
+      "iso_numeric": "232",
+      "name_lt": "Eritrėja",
+      "name_en": "Eritrea",
+      "slug": "er",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "232|Eritrea"
+      ],
+      "label_point": [
+        38.85708592970389,
+        15.361043176289105
+      ]
+    },
+    {
+      "country_id": "87a7f765-0bfb-5690-a878-4831c20af87c",
+      "iso_alpha2": "SZ",
+      "iso_alpha3": "SWZ",
+      "iso_numeric": "748",
+      "name_lt": "Esvatinis",
+      "name_en": "Eswatini",
+      "slug": "sz",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "748|eSwatini"
+      ],
+      "label_point": [
+        31.481629033178812,
+        -26.55778069031769
+      ]
+    },
+    {
+      "country_id": "ee734205-cb37-585a-a202-b88cfe7e5af5",
+      "iso_alpha2": "ET",
+      "iso_alpha3": "ETH",
+      "iso_numeric": "231",
+      "name_lt": "Etiopija",
+      "name_en": "Ethiopia",
+      "slug": "et",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "231|Ethiopia"
+      ],
+      "label_point": [
+        39.60973696449976,
+        8.614385874255959
+      ]
+    },
+    {
+      "country_id": "16f852e9-7311-586b-a361-6d3f8f40cb9f",
+      "iso_alpha2": "GA",
+      "iso_alpha3": "GAB",
+      "iso_numeric": "266",
+      "name_lt": "Gabonas",
+      "name_en": "Gabon",
+      "slug": "ga",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "266|Gabon"
+      ],
+      "label_point": [
+        11.788494358455571,
+        -0.5864998191944737
+      ]
+    },
+    {
+      "country_id": "30e51594-e6c7-5825-a703-8d929ad7609b",
+      "iso_alpha2": "GM",
+      "iso_alpha3": "GMB",
+      "iso_numeric": "270",
+      "name_lt": "Gambija",
+      "name_en": "Republic of The Gambia",
+      "slug": "gm",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "270|Gambia"
+      ],
+      "label_point": [
+        -15.395896024173462,
+        13.45104722394446
+      ]
+    },
+    {
+      "country_id": "fd47b32a-fdfb-52fc-a939-579555f6523b",
+      "iso_alpha2": "GH",
+      "iso_alpha3": "GHA",
+      "iso_numeric": "288",
+      "name_lt": "Gana",
+      "name_en": "Ghana",
+      "slug": "gh",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "288|Ghana"
+      ],
+      "label_point": [
+        -1.2170053603227091,
+        7.947613306313944
+      ]
+    },
+    {
+      "country_id": "8bde2971-7aea-5732-a640-a7ba8fccbe6b",
+      "iso_alpha2": "GN",
+      "iso_alpha3": "GIN",
+      "iso_numeric": "324",
+      "name_lt": "Gvinėja",
+      "name_en": "Guinea",
+      "slug": "gn",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "324|Guinea"
+      ],
+      "label_point": [
+        -10.934545480532485,
+        10.437404227967672
+      ]
+    },
+    {
+      "country_id": "4366d709-9184-5706-a21e-44d3c9e3620a",
+      "iso_alpha2": "GW",
+      "iso_alpha3": "GNB",
+      "iso_numeric": "624",
+      "name_lt": "Bisau Gvinėja",
+      "name_en": "Guinea-Bissau",
+      "slug": "gw",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "624|Guinea-Bissau"
+      ],
+      "label_point": [
+        -14.949907246188129,
+        12.048290939081319
+      ]
+    },
+    {
+      "country_id": "194e71d4-5267-5cdd-a17d-94d9ac5c13f6",
+      "iso_alpha2": "KE",
+      "iso_alpha3": "KEN",
+      "iso_numeric": "404",
+      "name_lt": "Kenija",
+      "name_en": "Kenya",
+      "slug": "ke",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "404|Kenya"
+      ],
+      "label_point": [
+        37.79641119389452,
+        0.5995118152152128
+      ]
+    },
+    {
+      "country_id": "c977a347-5be3-53d5-afe6-36933326f3a1",
+      "iso_alpha2": "LS",
+      "iso_alpha3": "LSO",
+      "iso_numeric": "426",
+      "name_lt": "Lesotas",
+      "name_en": "Lesotho",
+      "slug": "ls",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "426|Lesotho"
+      ],
+      "label_point": [
+        28.229038335880112,
+        -29.579079624727243
+      ]
+    },
+    {
+      "country_id": "5424e392-0afa-57e9-aa65-eb1e27513957",
+      "iso_alpha2": "LR",
+      "iso_alpha3": "LBR",
+      "iso_numeric": "430",
+      "name_lt": "Liberija",
+      "name_en": "Liberia",
+      "slug": "lr",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "430|Liberia"
+      ],
+      "label_point": [
+        -9.319786749206543,
+        6.452203522827829
+      ]
+    },
+    {
+      "country_id": "0906e429-4e3c-5c8e-a545-5702c993e5a5",
+      "iso_alpha2": "LY",
+      "iso_alpha3": "LBY",
+      "iso_numeric": "434",
+      "name_lt": "Libija",
+      "name_en": "Libya",
+      "slug": "ly",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "434|Libya"
+      ],
+      "label_point": [
+        18.066225952060133,
+        27.01681490353116
+      ]
+    },
+    {
+      "country_id": "110a920e-b33a-5694-a054-5814a7a93039",
+      "iso_alpha2": "MG",
+      "iso_alpha3": "MDG",
+      "iso_numeric": "450",
+      "name_lt": "Madagaskaras",
+      "name_en": "Madagascar",
+      "slug": "mg",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "450|Madagascar"
+      ],
+      "label_point": [
+        46.74291871953579,
+        -19.31657837319766
+      ]
+    },
+    {
+      "country_id": "99b0bef2-c747-5598-a59b-3dd773fd47a0",
+      "iso_alpha2": "MW",
+      "iso_alpha3": "MWI",
+      "iso_numeric": "454",
+      "name_lt": "Malavis",
+      "name_en": "Malawi",
+      "slug": "mw",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "454|Malawi"
+      ],
+      "label_point": [
+        34.2825098757073,
+        -13.204222483178608
+      ]
+    },
+    {
+      "country_id": "fe874995-c350-5c2c-ae66-860d8d4fb7dd",
+      "iso_alpha2": "ML",
+      "iso_alpha3": "MLI",
+      "iso_numeric": "466",
+      "name_lt": "Malis",
+      "name_en": "Mali",
+      "slug": "ml",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "466|Mali"
+      ],
+      "label_point": [
+        -3.590460403973842,
+        17.315075740415754
+      ]
+    },
+    {
+      "country_id": "86e54439-d9d7-59b4-a790-374b24cdeaac",
+      "iso_alpha2": "MR",
+      "iso_alpha3": "MRT",
+      "iso_numeric": "478",
+      "name_lt": "Mauritanija",
+      "name_en": "Mauritania",
+      "slug": "mr",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "478|Mauritania"
+      ],
+      "label_point": [
+        -10.36997616829003,
+        20.220333349025303
+      ]
+    },
+    {
+      "country_id": "f9e7e090-dec3-505b-a181-80f8a3fa4892",
+      "iso_alpha2": "MU",
+      "iso_alpha3": "MUS",
+      "iso_numeric": "480",
+      "name_lt": "Mauricijus",
+      "name_en": "Mauritius",
+      "slug": "mu",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "480|Mauritius"
+      ],
+      "label_point": [
+        57.57141269691574,
+        -20.277944118825168
+      ]
+    },
+    {
+      "country_id": "3f670819-58b5-55a0-a619-abb2b4f219be",
+      "iso_alpha2": "MA",
+      "iso_alpha3": "MAR",
+      "iso_numeric": "504",
+      "name_lt": "Marokas",
+      "name_en": "Morocco",
+      "slug": "ma",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "504|Morocco"
+      ],
+      "label_point": [
+        -8.728085477528673,
+        29.766562728227253
+      ]
+    },
+    {
+      "country_id": "2423ea21-e824-57fb-abde-2c59829295eb",
+      "iso_alpha2": "MZ",
+      "iso_alpha3": "MOZ",
+      "iso_numeric": "508",
+      "name_lt": "Mozambikas",
+      "name_en": "Mozambique",
+      "slug": "mz",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "508|Mozambique"
+      ],
+      "label_point": [
+        35.602776650315825,
+        -17.195614973815466
+      ]
+    },
+    {
+      "country_id": "555f75c3-95f5-5a3f-ac45-e10128e0fce0",
+      "iso_alpha2": "NA",
+      "iso_alpha3": "NAM",
+      "iso_numeric": "516",
+      "name_lt": "Namibija",
+      "name_en": "Namibia",
+      "slug": "na",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "516|Namibia"
+      ],
+      "label_point": [
+        17.195242696587776,
+        -22.069710662751977
+      ]
+    },
+    {
+      "country_id": "417d596c-e5e0-5bf0-a7ad-4e4d592f5daa",
+      "iso_alpha2": "NE",
+      "iso_alpha3": "NER",
+      "iso_numeric": "562",
+      "name_lt": "Nigeris",
+      "name_en": "Niger",
+      "slug": "ne",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "562|Niger"
+      ],
+      "label_point": [
+        9.331737677010631,
+        17.41189417739613
+      ]
+    },
+    {
+      "country_id": "cd013574-788e-57a5-abc9-cc5bd735b85d",
+      "iso_alpha2": "NG",
+      "iso_alpha3": "NGA",
+      "iso_numeric": "566",
+      "name_lt": "Nigerija",
+      "name_en": "Nigeria",
+      "slug": "ng",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "566|Nigeria"
+      ],
+      "label_point": [
+        8.079672401025467,
+        9.59095350818211
+      ]
+    },
+    {
+      "country_id": "d64dad3a-97d1-527f-a6a2-488a8bde9d21",
+      "iso_alpha2": "RW",
+      "iso_alpha3": "RWA",
+      "iso_numeric": "646",
+      "name_lt": "Ruanda",
+      "name_en": "Rwanda",
+      "slug": "rw",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "646|Rwanda"
+      ],
+      "label_point": [
+        29.919914512761647,
+        -1.9902577219838138
+      ]
+    },
+    {
+      "country_id": "9de7bd8d-8719-572f-a847-11a3d2a08136",
+      "iso_alpha2": "ST",
+      "iso_alpha3": "STP",
+      "iso_numeric": "678",
+      "name_lt": "San Tomė ir Prinsipė",
+      "name_en": "Sao Tome and Principe",
+      "slug": "st",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "678|São Tomé and Principe"
+      ],
+      "label_point": [
+        6.723473619330318,
+        0.44343437265233077
+      ]
+    },
+    {
+      "country_id": "207681de-580c-512d-a1b0-a4fff324c4b5",
+      "iso_alpha2": "SN",
+      "iso_alpha3": "SEN",
+      "iso_numeric": "686",
+      "name_lt": "Senegalas",
+      "name_en": "Senegal",
+      "slug": "sn",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "686|Senegal"
+      ],
+      "label_point": [
+        -14.469131427351726,
+        14.364779705095003
+      ]
+    },
+    {
+      "country_id": "49b46a0d-fe5d-5a85-a084-a8cf478d253b",
+      "iso_alpha2": "SC",
+      "iso_alpha3": "SYC",
+      "iso_numeric": "690",
+      "name_lt": "Seišeliai",
+      "name_en": "Seychelles",
+      "slug": "sc",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "690|Seychelles"
+      ],
+      "label_point": [
+        55.47596295686005,
+        -4.660106638743975
+      ]
+    },
+    {
+      "country_id": "31036d3f-a2b4-5825-ae61-e5afac10309e",
+      "iso_alpha2": "SL",
+      "iso_alpha3": "SLE",
+      "iso_numeric": "694",
+      "name_lt": "Siera Leonė",
+      "name_en": "Sierra Leone",
+      "slug": "sl",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "694|Sierra Leone"
+      ],
+      "label_point": [
+        -11.792675151693825,
+        8.562478248467022
+      ]
+    },
+    {
+      "country_id": "2341a92e-b0ee-58dc-a8b7-a3fbc9d2ed4d",
+      "iso_alpha2": "SO",
+      "iso_alpha3": "SOM",
+      "iso_numeric": "706",
+      "name_lt": "Somalis",
+      "name_en": "Somalia",
+      "slug": "so",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "706|Somalia"
+      ],
+      "label_point": [
+        45.67958939246915,
+        4.739662167474933
+      ]
+    },
+    {
+      "country_id": "1ea5db33-92be-5fcc-ad58-25e545a992ed",
+      "iso_alpha2": "ZA",
+      "iso_alpha3": "ZAF",
+      "iso_numeric": "710",
+      "name_lt": "Pietų Afrika",
+      "name_en": "South Africa",
+      "slug": "za",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "710|South Africa"
+      ],
+      "label_point": [
+        25.193727820863604,
+        -28.97435049832606
+      ]
+    },
+    {
+      "country_id": "92d21f21-4e44-5aae-a9d1-7da7a91e67c1",
+      "iso_alpha2": "SS",
+      "iso_alpha3": "SSD",
+      "iso_numeric": "728",
+      "name_lt": "Pietų Sudanas",
+      "name_en": "South Sudan",
+      "slug": "ss",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "728|S. Sudan"
+      ],
+      "label_point": [
+        30.25125004509164,
+        7.308933685726991
+      ]
+    },
+    {
+      "country_id": "1f050f7a-26c8-5d3b-a0da-7fe25931e463",
+      "iso_alpha2": "SD",
+      "iso_alpha3": "SDN",
+      "iso_numeric": "729",
+      "name_lt": "Sudanas",
+      "name_en": "Sudan",
+      "slug": "sd",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "729|Sudan"
+      ],
+      "label_point": [
+        29.90728206813427,
+        15.96806872391532
+      ]
+    },
+    {
+      "country_id": "eb3cb6a6-082d-5d03-ac93-7ea3f60cc211",
+      "iso_alpha2": "TZ",
+      "iso_alpha3": "TZA",
+      "iso_numeric": "834",
+      "name_lt": "Tanzanija",
+      "name_en": "United Republic of Tanzania",
+      "slug": "tz",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "834|Tanzania"
+      ],
+      "label_point": [
+        34.802078158467836,
+        -6.268451499434014
+      ]
+    },
+    {
+      "country_id": "3985eb8f-a2b2-5e33-a7f0-0fd6074ad753",
+      "iso_alpha2": "TG",
+      "iso_alpha3": "TGO",
+      "iso_numeric": "768",
+      "name_lt": "Togas",
+      "name_en": "Togo",
+      "slug": "tg",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "768|Togo"
+      ],
+      "label_point": [
+        0.9641791637672046,
+        8.520562269257644
+      ]
+    },
+    {
+      "country_id": "0d7514c1-8b6e-57c8-a5af-b3d8136f00be",
+      "iso_alpha2": "TN",
+      "iso_alpha3": "TUN",
+      "iso_numeric": "788",
+      "name_lt": "Tunisas",
+      "name_en": "Tunisia",
+      "slug": "tn",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "788|Tunisia"
+      ],
+      "label_point": [
+        9.556112637135252,
+        34.08894236780804
+      ]
+    },
+    {
+      "country_id": "85e52a58-01c5-5fd0-a35a-5de146e0572f",
+      "iso_alpha2": "UG",
+      "iso_alpha3": "UGA",
+      "iso_numeric": "800",
+      "name_lt": "Uganda",
+      "name_en": "Uganda",
+      "slug": "ug",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "800|Uganda"
+      ],
+      "label_point": [
+        32.36904684904143,
+        1.2740749179179225
+      ]
+    },
+    {
+      "country_id": "de0dd083-648f-5e41-afda-ab1f3fd7f72a",
+      "iso_alpha2": "ZM",
+      "iso_alpha3": "ZMB",
+      "iso_numeric": "894",
+      "name_lt": "Zambija",
+      "name_en": "Zambia",
+      "slug": "zm",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "894|Zambia"
+      ],
+      "label_point": [
+        27.808768988344436,
+        -13.455377410248841
+      ]
+    },
+    {
+      "country_id": "73275ef7-688a-504f-a603-1cb2de25465b",
+      "iso_alpha2": "ZW",
+      "iso_alpha3": "ZWE",
+      "iso_numeric": "716",
+      "name_lt": "Zimbabvė",
+      "name_en": "Zimbabwe",
+      "slug": "zw",
+      "continent_id": "AF",
+      "counted": true,
+      "geo_keys": [
+        "716|Zimbabwe"
+      ],
+      "label_point": [
+        29.85091894028353,
+        -18.99692627755554
+      ]
+    },
+    {
+      "country_id": "2ee6e08a-2efe-536b-a640-7202671da43b",
+      "iso_alpha2": "AG",
+      "iso_alpha3": "ATG",
+      "iso_numeric": "028",
+      "name_lt": "Antigva ir Barbuda",
+      "name_en": "Antigua and Barbuda",
+      "slug": "ag",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "028|Antigua and Barb."
+      ],
+      "label_point": [
+        -61.794485453569564,
+        17.276171498854783
+      ]
+    },
+    {
+      "country_id": "96d1cb5d-5320-5b44-af38-8b684a95d43b",
+      "iso_alpha2": "BS",
+      "iso_alpha3": "BHS",
+      "iso_numeric": "044",
+      "name_lt": "Bahamos",
+      "name_en": "Bahamas",
+      "slug": "bs",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "044|Bahamas"
+      ],
+      "label_point": [
+        -76.59088381028121,
+        24.279266154945176
+      ]
+    },
+    {
+      "country_id": "0f9330be-9787-515b-a039-dd8bcead74b1",
+      "iso_alpha2": "BB",
+      "iso_alpha3": "BRB",
+      "iso_numeric": "052",
+      "name_lt": "Barbadosas",
+      "name_en": "Barbados",
+      "slug": "bb",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "052|Barbados"
+      ],
+      "label_point": [
+        -59.56016937550867,
+        13.1810640104698
+      ]
+    },
+    {
+      "country_id": "848a141d-d551-5fd3-a566-82481336b9b1",
+      "iso_alpha2": "BZ",
+      "iso_alpha3": "BLZ",
+      "iso_numeric": "084",
+      "name_lt": "Belizas",
+      "name_en": "Belize",
+      "slug": "bz",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "084|Belize"
+      ],
+      "label_point": [
+        -88.71061773460941,
+        17.198953451637987
+      ]
+    },
+    {
+      "country_id": "a3b3f761-9eba-5d96-a014-787e04eaab4c",
+      "iso_alpha2": "CA",
+      "iso_alpha3": "CAN",
+      "iso_numeric": "124",
+      "name_lt": "Kanada",
+      "name_en": "Canada",
+      "slug": "ca",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "124|Canada"
+      ],
+      "label_point": [
+        -96.54855541024702,
+        60.41749144991488
+      ]
+    },
+    {
+      "country_id": "3a2fadc0-80e7-5858-a2db-15a25b3627e2",
+      "iso_alpha2": "CR",
+      "iso_alpha3": "CRI",
+      "iso_numeric": "188",
+      "name_lt": "Kosta Rika",
+      "name_en": "Costa Rica",
+      "slug": "cr",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "188|Costa Rica"
+      ],
+      "label_point": [
+        -84.19010556772535,
+        9.976386381275866
+      ]
+    },
+    {
+      "country_id": "90aa3e32-96d9-5ae2-a8cb-38ebb4b97e7b",
+      "iso_alpha2": "CU",
+      "iso_alpha3": "CUB",
+      "iso_numeric": "192",
+      "name_lt": "Kuba",
+      "name_en": "Cuba",
+      "slug": "cu",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "192|Cuba"
+      ],
+      "label_point": [
+        -78.98702511706668,
+        21.637972670204018
+      ]
+    },
+    {
+      "country_id": "7fdd1a78-04ce-5006-ae6f-9e3a7c6898a0",
+      "iso_alpha2": "DM",
+      "iso_alpha3": "DMA",
+      "iso_numeric": "212",
+      "name_lt": "Dominika",
+      "name_en": "Dominica",
+      "slug": "dm",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "212|Dominica"
+      ],
+      "label_point": [
+        -61.35763919755606,
+        15.439369486951625
+      ]
+    },
+    {
+      "country_id": "39707bc3-51f0-5423-ad1c-fad2eb14e216",
+      "iso_alpha2": "DO",
+      "iso_alpha3": "DOM",
+      "iso_numeric": "214",
+      "name_lt": "Dominikos Respublika",
+      "name_en": "Dominican Republic",
+      "slug": "do",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "214|Dominican Rep."
+      ],
+      "label_point": [
+        -70.50515718887756,
+        18.895108535905837
+      ]
+    },
+    {
+      "country_id": "1123c2d6-a640-56bc-a6a0-5b6e64bb549f",
+      "iso_alpha2": "SV",
+      "iso_alpha3": "SLV",
+      "iso_numeric": "222",
+      "name_lt": "Salvadoras",
+      "name_en": "El Salvador",
+      "slug": "sv",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "222|El Salvador"
+      ],
+      "label_point": [
+        -88.87131499085453,
+        13.739606739904417
+      ]
+    },
+    {
+      "country_id": "8ab2e3c3-68a1-55be-ac52-ebc18bb7a53f",
+      "iso_alpha2": "GD",
+      "iso_alpha3": "GRD",
+      "iso_numeric": "308",
+      "name_lt": "Grenada",
+      "name_en": "Grenada",
+      "slug": "gd",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "308|Grenada"
+      ],
+      "label_point": [
+        -61.681838475628346,
+        12.117380370375379
+      ]
+    },
+    {
+      "country_id": "7fff3678-5075-5f97-a3b8-412989a5af9e",
+      "iso_alpha2": "GT",
+      "iso_alpha3": "GTM",
+      "iso_numeric": "320",
+      "name_lt": "Gvatemala",
+      "name_en": "Guatemala",
+      "slug": "gt",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "320|Guatemala"
+      ],
+      "label_point": [
+        -90.36740975761775,
+        15.690142714316243
+      ]
+    },
+    {
+      "country_id": "912197d9-f7fb-5012-a79b-1204a93d7990",
+      "iso_alpha2": "HT",
+      "iso_alpha3": "HTI",
+      "iso_numeric": "332",
+      "name_lt": "Haitis",
+      "name_en": "Haiti",
+      "slug": "ht",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "332|Haiti"
+      ],
+      "label_point": [
+        -72.68700093939466,
+        18.93459435819168
+      ]
+    },
+    {
+      "country_id": "33e28ed3-1fce-5423-a07c-718d61ef5355",
+      "iso_alpha2": "HN",
+      "iso_alpha3": "HND",
+      "iso_numeric": "340",
+      "name_lt": "Hondūras",
+      "name_en": "Honduras",
+      "slug": "hn",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "340|Honduras"
+      ],
+      "label_point": [
+        -86.61782355125136,
+        14.82898120404834
+      ]
+    },
+    {
+      "country_id": "d09ef019-87f7-5220-a85b-5e01e4ff7667",
+      "iso_alpha2": "JM",
+      "iso_alpha3": "JAM",
+      "iso_numeric": "388",
+      "name_lt": "Jamaika",
+      "name_en": "Jamaica",
+      "slug": "jm",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "388|Jamaica"
+      ],
+      "label_point": [
+        -77.31454964524416,
+        18.157109752682683
+      ]
+    },
+    {
+      "country_id": "d6c316c1-0d24-5999-a5b5-c323cfdd8a52",
+      "iso_alpha2": "MX",
+      "iso_alpha3": "MEX",
+      "iso_numeric": "484",
+      "name_lt": "Meksika",
+      "name_en": "Mexico",
+      "slug": "mx",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "484|Mexico"
+      ],
+      "label_point": [
+        -102.17117444832081,
+        23.92429453658416
+      ]
+    },
+    {
+      "country_id": "bac7c1e9-77c0-5027-abbb-3dea8c9c7357",
+      "iso_alpha2": "NI",
+      "iso_alpha3": "NIC",
+      "iso_numeric": "558",
+      "name_lt": "Nikaragva",
+      "name_en": "Nicaragua",
+      "slug": "ni",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "558|Nicaragua"
+      ],
+      "label_point": [
+        -85.03192823779672,
+        12.845029942477376
+      ]
+    },
+    {
+      "country_id": "462e798b-c4c3-55e3-a69f-c6c860364535",
+      "iso_alpha2": "PA",
+      "iso_alpha3": "PAN",
+      "iso_numeric": "591",
+      "name_lt": "Panama",
+      "name_en": "Panama",
+      "slug": "pa",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "591|Panama"
+      ],
+      "label_point": [
+        -80.11923811061114,
+        8.520347296808628
+      ]
+    },
+    {
+      "country_id": "f394dde9-add8-548f-a9cc-8e80ced38d29",
+      "iso_alpha2": "KN",
+      "iso_alpha3": "KNA",
+      "iso_numeric": "659",
+      "name_lt": "Sent Kitsas ir Nevis",
+      "name_en": "Saint Kitts and Nevis",
+      "slug": "kn",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "659|St. Kitts and Nevis"
+      ],
+      "label_point": [
+        -62.68729371936866,
+        17.264654656792107
+      ]
+    },
+    {
+      "country_id": "9a1c6824-8fd8-5b96-ae67-a27f007185c9",
+      "iso_alpha2": "LC",
+      "iso_alpha3": "LCA",
+      "iso_numeric": "662",
+      "name_lt": "Sent Lusija",
+      "name_en": "Saint Lucia",
+      "slug": "lc",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "662|Saint Lucia"
+      ],
+      "label_point": [
+        -60.96964894395848,
+        13.894564965978644
+      ]
+    },
+    {
+      "country_id": "fd2785ee-1ff2-59ba-af7f-3b53a69f96f9",
+      "iso_alpha2": "VC",
+      "iso_alpha3": "VCT",
+      "iso_numeric": "670",
+      "name_lt": "Šventasis Vincentas ir Grenadinai",
+      "name_en": "Saint Vincent and the Grenadines",
+      "slug": "vc",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "670|St. Vin. and Gren."
+      ],
+      "label_point": [
+        -61.20083930081762,
+        13.225078524861612
+      ]
+    },
+    {
+      "country_id": "bc947d55-4a9b-52b0-ac9e-88c9bf3f5676",
+      "iso_alpha2": "TT",
+      "iso_alpha3": "TTO",
+      "iso_numeric": "780",
+      "name_lt": "Trinidadas ir Tobagas",
+      "name_en": "Trinidad and Tobago",
+      "slug": "tt",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "780|Trinidad and Tobago"
+      ],
+      "label_point": [
+        -61.266138488181404,
+        10.456686940218754
+      ]
+    },
+    {
+      "country_id": "8906e014-c9fd-5461-a6b5-f3cdbacf0c8d",
+      "iso_alpha2": "US",
+      "iso_alpha3": "USA",
+      "iso_numeric": "840",
+      "name_lt": "Jungtinės Valstijos",
+      "name_en": "United States of America",
+      "slug": "us",
+      "continent_id": "NA",
+      "counted": true,
+      "geo_keys": [
+        "840|United States of America"
+      ],
+      "label_point": [
+        -100,
+        38
+      ]
+    },
+    {
+      "country_id": "b5606b51-03c2-5e22-a9b3-e27890bbde2b",
+      "iso_alpha2": "AR",
+      "iso_alpha3": "ARG",
+      "iso_numeric": "032",
+      "name_lt": "Argentina",
+      "name_en": "Argentina",
+      "slug": "ar",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "032|Argentina"
+      ],
+      "label_point": [
+        -64.7625080167647,
+        -34.68399971942134
+      ]
+    },
+    {
+      "country_id": "d72c4e5f-bd22-53f6-a62c-523d658fab6f",
+      "iso_alpha2": "BO",
+      "iso_alpha3": "BOL",
+      "iso_numeric": "068",
+      "name_lt": "Bolivija",
+      "name_en": "Bolivia",
+      "slug": "bo",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "068|Bolivia"
+      ],
+      "label_point": [
+        -64.69835324761397,
+        -16.682025165323818
+      ]
+    },
+    {
+      "country_id": "b25ac830-1170-516b-a41d-5c984ccedc60",
+      "iso_alpha2": "BR",
+      "iso_alpha3": "BRA",
+      "iso_numeric": "076",
+      "name_lt": "Brazilija",
+      "name_en": "Brazil",
+      "slug": "br",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "076|Brazil"
+      ],
+      "label_point": [
+        -53.215669849803845,
+        -10.638940312199168
+      ]
+    },
+    {
+      "country_id": "f8b34665-1bab-517d-a9ac-6190cab8a724",
+      "iso_alpha2": "CL",
+      "iso_alpha3": "CHL",
+      "iso_numeric": "152",
+      "name_lt": "Čilė",
+      "name_en": "Chile",
+      "slug": "cl",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "152|Chile"
+      ],
+      "label_point": [
+        -71.0557759436706,
+        -36.07485061225178
+      ]
+    },
+    {
+      "country_id": "76e0319a-b824-5876-a35b-fd1a20a493fe",
+      "iso_alpha2": "CO",
+      "iso_alpha3": "COL",
+      "iso_numeric": "170",
+      "name_lt": "Kolumbija",
+      "name_en": "Colombia",
+      "slug": "co",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "170|Colombia"
+      ],
+      "label_point": [
+        -73.07699383249614,
+        3.903405402585914
+      ]
+    },
+    {
+      "country_id": "af32b082-c694-50da-a294-467bf0f18f98",
+      "iso_alpha2": "EC",
+      "iso_alpha3": "ECU",
+      "iso_numeric": "218",
+      "name_lt": "Ekvadoras",
+      "name_en": "Ecuador",
+      "slug": "ec",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "218|Ecuador"
+      ],
+      "label_point": [
+        -78.74926074820509,
+        -1.4242873240691036
+      ]
+    },
+    {
+      "country_id": "22411bce-b31f-548e-a760-0599b4fc0dca",
+      "iso_alpha2": "GY",
+      "iso_alpha3": "GUY",
+      "iso_numeric": "328",
+      "name_lt": "Gajana",
+      "name_en": "Guyana",
+      "slug": "gy",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "328|Guyana"
+      ],
+      "label_point": [
+        -58.97971528060782,
+        4.789561724828946
+      ]
+    },
+    {
+      "country_id": "b634c08e-48f8-5d71-a5c2-8a5671cd36d0",
+      "iso_alpha2": "PY",
+      "iso_alpha3": "PRY",
+      "iso_numeric": "600",
+      "name_lt": "Paragvajus",
+      "name_en": "Paraguay",
+      "slug": "py",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "600|Paraguay"
+      ],
+      "label_point": [
+        -58.443252278984325,
+        -23.208861835097867
+      ]
+    },
+    {
+      "country_id": "274cd80a-2834-5a47-a10d-4b4b464e5ec0",
+      "iso_alpha2": "PE",
+      "iso_alpha3": "PER",
+      "iso_numeric": "604",
+      "name_lt": "Peru",
+      "name_en": "Peru",
+      "slug": "pe",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "604|Peru"
+      ],
+      "label_point": [
+        -74.42082516967352,
+        -9.107142070838878
+      ]
+    },
+    {
+      "country_id": "4318ad44-34cc-52a4-a53a-2290352fd2eb",
+      "iso_alpha2": "SR",
+      "iso_alpha3": "SUR",
+      "iso_numeric": "740",
+      "name_lt": "Surinamas",
+      "name_en": "Suriname",
+      "slug": "sr",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "740|Suriname"
+      ],
+      "label_point": [
+        -55.912550729144485,
+        4.130011063952871
+      ]
+    },
+    {
+      "country_id": "fd27d9fa-b67f-5abc-abdf-3ec3da7299e0",
+      "iso_alpha2": "UY",
+      "iso_alpha3": "URY",
+      "iso_numeric": "858",
+      "name_lt": "Urugvajus",
+      "name_en": "Uruguay",
+      "slug": "uy",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "858|Uruguay"
+      ],
+      "label_point": [
+        -56.025199672055216,
+        -32.791340365399755
+      ]
+    },
+    {
+      "country_id": "4fa45feb-455e-5345-a199-1711442e4918",
+      "iso_alpha2": "VE",
+      "iso_alpha3": "VEN",
+      "iso_numeric": "862",
+      "name_lt": "Venesuela",
+      "name_en": "Venezuela",
+      "slug": "ve",
+      "continent_id": "SA",
+      "counted": true,
+      "geo_keys": [
+        "862|Venezuela"
+      ],
+      "label_point": [
+        -66.17064991190696,
+        7.122351842889255
+      ]
+    },
+    {
+      "country_id": "aff0fc83-0b41-5b45-a236-4905892127e1",
+      "iso_alpha2": "AU",
+      "iso_alpha3": "AUS",
+      "iso_numeric": "036",
+      "name_lt": "Australija",
+      "name_en": "Australia",
+      "slug": "au",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "036|Australia"
+      ],
+      "label_point": [
+        134.3037791627071,
+        -25.764247078782574
+      ]
+    },
+    {
+      "country_id": "836b5e9b-183f-5cd3-ad99-7d02e2d16ca2",
+      "iso_alpha2": "FJ",
+      "iso_alpha3": "FJI",
+      "iso_numeric": "242",
+      "name_lt": "Fidžis",
+      "name_en": "Fiji",
+      "slug": "fj",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "242|Fiji"
+      ],
+      "label_point": [
+        178,
+        -17.8
+      ]
+    },
+    {
+      "country_id": "d1391fed-a3a1-5977-a6ff-92ea1330ae0b",
+      "iso_alpha2": "KI",
+      "iso_alpha3": "KIR",
+      "iso_numeric": "296",
+      "name_lt": "Kiribatis",
+      "name_en": "Kiribati",
+      "slug": "ki",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "296|Kiribati"
+      ],
+      "label_point": [
+        -167.9216945143975,
+        0.8929852780702686
+      ]
+    },
+    {
+      "country_id": "8c56596c-17f3-5c5d-abd4-0513fd3e97da",
+      "iso_alpha2": "MH",
+      "iso_alpha3": "MHL",
+      "iso_numeric": "584",
+      "name_lt": "Maršalo Salos",
+      "name_en": "Marshall Islands",
+      "slug": "mh",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "584|Marshall Is."
+      ],
+      "label_point": [
+        170.33129110222018,
+        7.015025331860305
+      ]
+    },
+    {
+      "country_id": "5ceb933b-9dd7-5a71-aaa3-894d0819121a",
+      "iso_alpha2": "FM",
+      "iso_alpha3": "FSM",
+      "iso_numeric": "583",
+      "name_lt": "Mikronezija",
+      "name_en": "Micronesia, Federated States of",
+      "slug": "fm",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "583|Micronesia"
+      ],
+      "label_point": [
+        153.29662412944666,
+        7.5360532893943635
+      ]
+    },
+    {
+      "country_id": "8aa3b90a-cab1-504f-a10f-efa9e65d6371",
+      "iso_alpha2": "NR",
+      "iso_alpha3": "NRU",
+      "iso_numeric": "520",
+      "name_lt": "Nauru",
+      "name_en": "Nauru",
+      "slug": "nr",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "520|Nauru"
+      ],
+      "label_point": [
+        166.93255337405898,
+        -0.5189420733017751
+      ]
+    },
+    {
+      "country_id": "d9c692f5-9fa5-5815-aa2f-b76f50cdcac2",
+      "iso_alpha2": "NZ",
+      "iso_alpha3": "NZL",
+      "iso_numeric": "554",
+      "name_lt": "Naujoji Zelandija",
+      "name_en": "New Zealand",
+      "slug": "nz",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "554|New Zealand"
+      ],
+      "label_point": [
+        174,
+        -41
+      ]
+    },
+    {
+      "country_id": "57fd5d17-a29a-57c1-aeed-829ddb34ef73",
+      "iso_alpha2": "PW",
+      "iso_alpha3": "PLW",
+      "iso_numeric": "585",
+      "name_lt": "Palau",
+      "name_en": "Palau",
+      "slug": "pw",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "585|Palau"
+      ],
+      "label_point": [
+        134.40556509748708,
+        7.286030047757641
+      ]
+    },
+    {
+      "country_id": "e5dec081-68a0-53d8-a123-7be0c48083e2",
+      "iso_alpha2": "PG",
+      "iso_alpha3": "PNG",
+      "iso_numeric": "598",
+      "name_lt": "Papua Naujoji Gvinėja",
+      "name_en": "Papua New Guinea",
+      "slug": "pg",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "598|Papua New Guinea"
+      ],
+      "label_point": [
+        145.20097251436763,
+        -6.468664131710257
+      ]
+    },
+    {
+      "country_id": "abdae2b3-c4f2-595d-a2a1-0cf749d6c96d",
+      "iso_alpha2": "WS",
+      "iso_alpha3": "WSM",
+      "iso_numeric": "882",
+      "name_lt": "Samoa",
+      "name_en": "Samoa",
+      "slug": "ws",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "882|Samoa"
+      ],
+      "label_point": [
+        -172.16487634578806,
+        -13.753583708323308
+      ]
+    },
+    {
+      "country_id": "2426ae17-1d9d-56e8-adb9-05e3290adc57",
+      "iso_alpha2": "SB",
+      "iso_alpha3": "SLB",
+      "iso_numeric": "090",
+      "name_lt": "Saliamono Salos",
+      "name_en": "Solomon Islands",
+      "slug": "sb",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "090|Solomon Is."
+      ],
+      "label_point": [
+        159.62023053682825,
+        -8.921996159869593
+      ]
+    },
+    {
+      "country_id": "f3490939-2c3f-5332-a15a-d2570132a49a",
+      "iso_alpha2": "TO",
+      "iso_alpha3": "TON",
+      "iso_numeric": "776",
+      "name_lt": "Tonga",
+      "name_en": "Tonga",
+      "slug": "to",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "776|Tonga"
+      ],
+      "label_point": [
+        -174.79980587898802,
+        -20.4161104894254
+      ]
+    },
+    {
+      "country_id": "aad25c54-7737-567b-aca3-3473938a648c",
+      "iso_alpha2": "TV",
+      "iso_alpha3": "TUV",
+      "iso_numeric": "798",
+      "name_lt": "Tuvalu",
+      "name_en": "Tuvalu",
+      "slug": "tv",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [],
+      "label_point": [
+        179.089567,
+        -8.6314877
+      ],
+      "point_source": "https://api.worldbank.org/v2/country/TV?format=json"
+    },
+    {
+      "country_id": "a3778280-b4c6-5615-aa49-0bcf405c492d",
+      "iso_alpha2": "VU",
+      "iso_alpha3": "VUT",
+      "iso_numeric": "548",
+      "name_lt": "Vanuatu",
+      "name_en": "Vanuatu",
+      "slug": "vu",
+      "continent_id": "OC",
+      "counted": true,
+      "geo_keys": [
+        "548|Vanuatu"
+      ],
+      "label_point": [
+        167.6752078888191,
+        -16.216948287631666
+      ]
+    }
+  ],
+  "feature_map": [
+    {
+      "geo_key": "716|Zimbabwe",
+      "country_id": "73275ef7-688a-504f-a603-1cb2de25465b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "894|Zambia",
+      "country_id": "de0dd083-648f-5e41-afda-ab1f3fd7f72a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "887|Yemen",
+      "country_id": "1b30d914-241e-5a8b-ab39-7eb3dd9b9801",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "704|Vietnam",
+      "country_id": "caeea6ce-03d5-5ac7-a663-74df3006d419",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "862|Venezuela",
+      "country_id": "4fa45feb-455e-5345-a199-1711442e4918",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "336|Vatican",
+      "country_id": "64607565-f89d-5644-a07f-941cd1c70d8a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "548|Vanuatu",
+      "country_id": "a3778280-b4c6-5615-aa49-0bcf405c492d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "860|Uzbekistan",
+      "country_id": "ff653261-1d66-5763-a031-4045e08dbf72",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "858|Uruguay",
+      "country_id": "fd27d9fa-b67f-5abc-abdf-3ec3da7299e0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "583|Micronesia",
+      "country_id": "5ceb933b-9dd7-5a71-aaa3-894d0819121a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "584|Marshall Is.",
+      "country_id": "8c56596c-17f3-5c5d-abd4-0513fd3e97da",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "580|N. Mariana Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "850|U.S. Virgin Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "316|Guam",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "016|American Samoa",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "630|Puerto Rico",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "840|United States of America",
+      "country_id": "8906e014-c9fd-5461-a6b5-f3cdbacf0c8d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "239|S. Geo. and the Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "086|Br. Indian Ocean Ter.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "654|Saint Helena",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "612|Pitcairn Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "660|Anguilla",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "238|Falkland Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "136|Cayman Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "060|Bermuda",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "092|British Virgin Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "796|Turks and Caicos Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "500|Montserrat",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "832|Jersey",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "831|Guernsey",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "833|Isle of Man",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "826|United Kingdom",
+      "country_id": "f2c359b3-ac0d-564e-a669-872589c97d00",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "784|United Arab Emirates",
+      "country_id": "513e0cad-21a0-59d6-a9bb-47774f02cb68",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "804|Ukraine",
+      "country_id": "9e882514-21e5-5a15-ab08-531fd9ddabe0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "800|Uganda",
+      "country_id": "85e52a58-01c5-5fd0-a35a-5de146e0572f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "795|Turkmenistan",
+      "country_id": "8ef30289-e65a-5082-a7d7-be12386bdb6a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "792|Turkey",
+      "country_id": "1392ef69-f451-532c-a336-36ee7515525d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "788|Tunisia",
+      "country_id": "0d7514c1-8b6e-57c8-a5af-b3d8136f00be",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "780|Trinidad and Tobago",
+      "country_id": "bc947d55-4a9b-52b0-ac9e-88c9bf3f5676",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "776|Tonga",
+      "country_id": "f3490939-2c3f-5332-a15a-d2570132a49a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "768|Togo",
+      "country_id": "3985eb8f-a2b2-5e33-a7f0-0fd6074ad753",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "626|Timor-Leste",
+      "country_id": "a86c0bc4-c531-58b9-ac04-0d4a4efab56b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "764|Thailand",
+      "country_id": "0e3151ac-3092-57cf-a024-83905e08c647",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "834|Tanzania",
+      "country_id": "eb3cb6a6-082d-5d03-ac93-7ea3f60cc211",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "762|Tajikistan",
+      "country_id": "cf12265b-876e-58a9-aff3-28fc91a203c3",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "158|Taiwan",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "760|Syria",
+      "country_id": "e341a0b1-4c3a-5823-aafa-2d099d7cbb24",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "756|Switzerland",
+      "country_id": "f3db946c-626c-5ec3-ae30-fcfc63b74105",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "752|Sweden",
+      "country_id": "74a1b38b-c5c6-57ff-a419-026014c575bd",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "748|eSwatini",
+      "country_id": "87a7f765-0bfb-5690-a878-4831c20af87c",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "740|Suriname",
+      "country_id": "4318ad44-34cc-52a4-a53a-2290352fd2eb",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "728|S. Sudan",
+      "country_id": "92d21f21-4e44-5aae-a9d1-7da7a91e67c1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "729|Sudan",
+      "country_id": "1f050f7a-26c8-5d3b-a0da-7fe25931e463",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "144|Sri Lanka",
+      "country_id": "46b65492-6e60-5f81-aa14-b7b253605ae2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "724|Spain",
+      "country_id": "d9f4eaee-1b89-514d-a735-4a268188948f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "410|South Korea",
+      "country_id": "776bd0a8-6fc3-59ff-a9c0-1999750f2012",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "710|South Africa",
+      "country_id": "1ea5db33-92be-5fcc-ad58-25e545a992ed",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "706|Somalia",
+      "country_id": "2341a92e-b0ee-58dc-a8b7-a3fbc9d2ed4d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "Somaliland|Somaliland",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "090|Solomon Is.",
+      "country_id": "2426ae17-1d9d-56e8-adb9-05e3290adc57",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "703|Slovakia",
+      "country_id": "58266169-a1d2-5066-a372-0058555b9496",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "705|Slovenia",
+      "country_id": "3ad135d4-6659-530a-a58f-b6a07a924404",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "702|Singapore",
+      "country_id": "bd9b3454-ba1e-5a87-a847-c8ffd06469ae",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "694|Sierra Leone",
+      "country_id": "31036d3f-a2b4-5825-ae61-e5afac10309e",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "690|Seychelles",
+      "country_id": "49b46a0d-fe5d-5a85-a084-a8cf478d253b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "688|Serbia",
+      "country_id": "fd02fcbd-01fa-5760-a373-2d24d001f85e",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "686|Senegal",
+      "country_id": "207681de-580c-512d-a1b0-a4fff324c4b5",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "682|Saudi Arabia",
+      "country_id": "7cc05c1f-789e-5f99-a8ce-62a54d9d168f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "678|São Tomé and Principe",
+      "country_id": "9de7bd8d-8719-572f-a847-11a3d2a08136",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "674|San Marino",
+      "country_id": "ee5639b1-4e31-5b26-a3c4-ce5e0c0575ed",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "882|Samoa",
+      "country_id": "abdae2b3-c4f2-595d-a2a1-0cf749d6c96d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "670|St. Vin. and Gren.",
+      "country_id": "fd2785ee-1ff2-59ba-af7f-3b53a69f96f9",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "662|Saint Lucia",
+      "country_id": "9a1c6824-8fd8-5b96-ae67-a27f007185c9",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "659|St. Kitts and Nevis",
+      "country_id": "f394dde9-add8-548f-a9cc-8e80ced38d29",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "646|Rwanda",
+      "country_id": "d64dad3a-97d1-527f-a6a2-488a8bde9d21",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "643|Russia",
+      "country_id": "c1db4869-653b-5792-a744-6ee417bf4e6d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "642|Romania",
+      "country_id": "cd3d1494-696a-526f-ab2f-2e20d649e2ad",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "634|Qatar",
+      "country_id": "07cb70b9-bbe1-56b3-ac94-b772297d98ed",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "620|Portugal",
+      "country_id": "5a23f0cc-a891-5bb3-a756-b6e7285c64e3",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "616|Poland",
+      "country_id": "3022a3e0-a24b-576d-ad5a-82d675cb46d6",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "608|Philippines",
+      "country_id": "ca1da1ce-fccf-586d-ac33-fca00e24e19c",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "604|Peru",
+      "country_id": "274cd80a-2834-5a47-a10d-4b4b464e5ec0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "600|Paraguay",
+      "country_id": "b634c08e-48f8-5d71-a5c2-8a5671cd36d0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "598|Papua New Guinea",
+      "country_id": "e5dec081-68a0-53d8-a123-7be0c48083e2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "591|Panama",
+      "country_id": "462e798b-c4c3-55e3-a69f-c6c860364535",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "585|Palau",
+      "country_id": "57fd5d17-a29a-57c1-aeed-829ddb34ef73",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "586|Pakistan",
+      "country_id": "80296a2d-5736-506a-a6ed-42dcf3bc2d11",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "512|Oman",
+      "country_id": "02ad0331-d39a-5018-ab44-dcfa889eb523",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "578|Norway",
+      "country_id": "9c4aa4fb-8c57-520f-a363-cb4c2f96319b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "408|North Korea",
+      "country_id": "e8576cf4-bccd-555b-a6d8-04f01131c540",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "566|Nigeria",
+      "country_id": "cd013574-788e-57a5-abc9-cc5bd735b85d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "562|Niger",
+      "country_id": "417d596c-e5e0-5bf0-a7ad-4e4d592f5daa",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "558|Nicaragua",
+      "country_id": "bac7c1e9-77c0-5027-abbb-3dea8c9c7357",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "554|New Zealand",
+      "country_id": "d9c692f5-9fa5-5815-aa2f-b76f50cdcac2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "570|Niue",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "184|Cook Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "528|Netherlands",
+      "country_id": "23999d90-66ac-589f-a877-86099550eea2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "533|Aruba",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "531|Curaçao",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "524|Nepal",
+      "country_id": "be3a669b-3fe3-510b-a2d4-d904ccf29453",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "520|Nauru",
+      "country_id": "8aa3b90a-cab1-504f-a10f-efa9e65d6371",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "516|Namibia",
+      "country_id": "555f75c3-95f5-5a3f-ac45-e10128e0fce0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "508|Mozambique",
+      "country_id": "2423ea21-e824-57fb-abde-2c59829295eb",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "504|Morocco",
+      "country_id": "3f670819-58b5-55a0-a619-abb2b4f219be",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "732|W. Sahara",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "499|Montenegro",
+      "country_id": "7dcdbe1a-e7fb-599c-a24d-d969b10e6632",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "496|Mongolia",
+      "country_id": "10e3d14c-fe25-5f4d-a1b9-161fcc649a63",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "498|Moldova",
+      "country_id": "7291743f-054c-5f04-afe7-7d8a3e865202",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "492|Monaco",
+      "country_id": "76d24e8d-17f9-5a1c-aba6-36b770a03a63",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "484|Mexico",
+      "country_id": "d6c316c1-0d24-5999-a5b5-c323cfdd8a52",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "480|Mauritius",
+      "country_id": "f9e7e090-dec3-505b-a181-80f8a3fa4892",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "478|Mauritania",
+      "country_id": "86e54439-d9d7-59b4-a790-374b24cdeaac",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "470|Malta",
+      "country_id": "c87a880e-067d-5418-aec5-b4bc97cddecd",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "466|Mali",
+      "country_id": "fe874995-c350-5c2c-ae66-860d8d4fb7dd",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "462|Maldives",
+      "country_id": "1552350a-2541-55ad-adb7-f3ecf55246d1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "458|Malaysia",
+      "country_id": "41c88b91-5960-5ee0-a0b0-5b93ee473fc4",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "454|Malawi",
+      "country_id": "99b0bef2-c747-5598-a59b-3dd773fd47a0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "450|Madagascar",
+      "country_id": "110a920e-b33a-5694-a054-5814a7a93039",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "807|Macedonia",
+      "country_id": "8518c7a2-d2c4-5df2-a41e-56f8128ee3ac",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "442|Luxembourg",
+      "country_id": "f18e8e04-034f-50e9-ab02-d085bb360d53",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "440|Lithuania",
+      "country_id": "768f30cf-574b-5248-9953-ec705fed4599",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "438|Liechtenstein",
+      "country_id": "f2637905-223f-5724-a92e-b57d098616a9",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "434|Libya",
+      "country_id": "0906e429-4e3c-5c8e-a545-5702c993e5a5",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "430|Liberia",
+      "country_id": "5424e392-0afa-57e9-aa65-eb1e27513957",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "426|Lesotho",
+      "country_id": "c977a347-5be3-53d5-afe6-36933326f3a1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "422|Lebanon",
+      "country_id": "5a668ec1-d9ee-59a8-ab9f-d8d00e7e3eee",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "428|Latvia",
+      "country_id": "040586e6-7322-5868-a24c-99cd31dc9a02",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "418|Laos",
+      "country_id": "b97943b6-8f34-5fa1-aa96-9419eaa6faac",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "417|Kyrgyzstan",
+      "country_id": "0937ae25-0f7c-57ea-a024-7bfcf4dbe5d1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "414|Kuwait",
+      "country_id": "004b90f7-dbe9-5526-ac4f-55d570efa9d4",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "Kosovo|Kosovo",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "296|Kiribati",
+      "country_id": "d1391fed-a3a1-5977-a6ff-92ea1330ae0b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "404|Kenya",
+      "country_id": "194e71d4-5267-5cdd-a17d-94d9ac5c13f6",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "398|Kazakhstan",
+      "country_id": "a3ec473b-aec0-5bcc-aba6-da37230ff1b3",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "400|Jordan",
+      "country_id": "58fbe776-b594-5e5a-a6b2-4880e064f7d4",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "392|Japan",
+      "country_id": "859baccd-058a-5d28-a56c-6d988359f33d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "388|Jamaica",
+      "country_id": "d09ef019-87f7-5220-a85b-5e01e4ff7667",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "380|Italy",
+      "country_id": "6851a41d-5151-5a8e-aed4-a424b4db9770",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "376|Israel",
+      "country_id": "cc967a5e-a52e-5082-a136-0c069849c480",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "275|Palestine",
+      "country_id": "f8c2d28b-a109-5acb-a276-d165997825c0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "372|Ireland",
+      "country_id": "7764efa7-b59a-5980-a984-484574fc5082",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "368|Iraq",
+      "country_id": "db573649-fa16-527b-adfc-4d9d78fe60f1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "364|Iran",
+      "country_id": "71dd1176-e2f1-5ecd-a089-4b503b1930c2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "360|Indonesia",
+      "country_id": "c91e4f89-48ba-5725-aa1b-fa583f142301",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "356|India",
+      "country_id": "dbc8d639-b42e-5eac-a932-e36602109c9e",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "352|Iceland",
+      "country_id": "bda67ab8-dd60-5df1-a116-9f73ef0de2b2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "348|Hungary",
+      "country_id": "8237e011-2457-5a67-a5e9-dd8dd42bfcf8",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "340|Honduras",
+      "country_id": "33e28ed3-1fce-5423-a07c-718d61ef5355",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "332|Haiti",
+      "country_id": "912197d9-f7fb-5012-a79b-1204a93d7990",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "328|Guyana",
+      "country_id": "22411bce-b31f-548e-a760-0599b4fc0dca",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "624|Guinea-Bissau",
+      "country_id": "4366d709-9184-5706-a21e-44d3c9e3620a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "324|Guinea",
+      "country_id": "8bde2971-7aea-5732-a640-a7ba8fccbe6b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "320|Guatemala",
+      "country_id": "7fff3678-5075-5f97-a3b8-412989a5af9e",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "308|Grenada",
+      "country_id": "8ab2e3c3-68a1-55be-ac52-ebc18bb7a53f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "300|Greece",
+      "country_id": "bdf4a3da-48ef-56d4-a816-4992b1fd8f50",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "288|Ghana",
+      "country_id": "fd47b32a-fdfb-52fc-a939-579555f6523b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "276|Germany",
+      "country_id": "be0a5258-b6db-5a40-a47b-50e311614ba4",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "268|Georgia",
+      "country_id": "150afc34-5d3b-51a4-ae79-5d2e2e42fb4b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "270|Gambia",
+      "country_id": "30e51594-e6c7-5825-a703-8d929ad7609b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "266|Gabon",
+      "country_id": "16f852e9-7311-586b-a361-6d3f8f40cb9f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "250|France",
+      "country_id": "1788e5f4-aca1-5826-a69f-d2e0eb128e25",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "666|St. Pierre and Miquelon",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "876|Wallis and Futuna Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "663|St-Martin",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "652|St-Barthélemy",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "258|Fr. Polynesia",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "540|New Caledonia",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "260|Fr. S. Antarctic Lands",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "248|Åland",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "246|Finland",
+      "country_id": "fe24442d-c848-5c26-abde-07bbd5f1ef9d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "242|Fiji",
+      "country_id": "836b5e9b-183f-5cd3-ad99-7d02e2d16ca2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "231|Ethiopia",
+      "country_id": "ee734205-cb37-585a-a202-b88cfe7e5af5",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "233|Estonia",
+      "country_id": "773d0c51-3eda-52a6-aae4-192bc9f76021",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "232|Eritrea",
+      "country_id": "07ee834b-72a6-59bc-a54f-d7b80adafc10",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "226|Eq. Guinea",
+      "country_id": "2e959614-22ee-5fe7-a69c-f468f90addfa",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "222|El Salvador",
+      "country_id": "1123c2d6-a640-56bc-a6a0-5b6e64bb549f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "818|Egypt",
+      "country_id": "c5586514-60b8-50da-a7b4-03693f446db8",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "218|Ecuador",
+      "country_id": "af32b082-c694-50da-a294-467bf0f18f98",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "214|Dominican Rep.",
+      "country_id": "39707bc3-51f0-5423-ad1c-fad2eb14e216",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "212|Dominica",
+      "country_id": "7fdd1a78-04ce-5006-ae6f-9e3a7c6898a0",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "262|Djibouti",
+      "country_id": "4b89c3f9-b2de-5b6f-a144-402a04f92776",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "304|Greenland",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "234|Faeroe Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "208|Denmark",
+      "country_id": "a3ee0921-afca-5313-a9e9-a62327dbddea",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "203|Czechia",
+      "country_id": "519abaef-0da1-5b83-ac89-9171cf136f56",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "N. Cyprus|N. Cyprus",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "196|Cyprus",
+      "country_id": "3f374422-7ca4-5fd4-a4f7-5d590115b99f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "192|Cuba",
+      "country_id": "90aa3e32-96d9-5ae2-a8cb-38ebb4b97e7b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "191|Croatia",
+      "country_id": "f38e2584-7fe6-52b5-a884-c14d2524c015",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "384|Côte d'Ivoire",
+      "country_id": "30305342-bf13-5cbf-a8c1-25d70de06825",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "188|Costa Rica",
+      "country_id": "3a2fadc0-80e7-5858-a2db-15a25b3627e2",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "180|Dem. Rep. Congo",
+      "country_id": "e1ae08c7-0c4c-5fd2-a4ce-0a5c4e772977",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "178|Congo",
+      "country_id": "cb9e3b82-75cf-5670-afe7-ab49036aa190",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "174|Comoros",
+      "country_id": "ebfa311f-b2d9-5236-a496-8d8c60709c00",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "170|Colombia",
+      "country_id": "76e0319a-b824-5876-a35b-fd1a20a493fe",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "156|China",
+      "country_id": "15480d3b-409d-56f9-aa4e-fbc57f1426cf",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "446|Macao",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "344|Hong Kong",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "152|Chile",
+      "country_id": "f8b34665-1bab-517d-a9ac-6190cab8a724",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "148|Chad",
+      "country_id": "898da1e3-3376-543e-a85b-66637aba4dc8",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "140|Central African Rep.",
+      "country_id": "f7c61c97-40f7-57ce-ac8e-75aee8fdd66b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "132|Cabo Verde",
+      "country_id": "de6c0693-8b03-5d37-a5a2-f4f54c777f36",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "124|Canada",
+      "country_id": "a3b3f761-9eba-5d96-a014-787e04eaab4c",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "120|Cameroon",
+      "country_id": "25783ce6-8eeb-5872-aead-f089b4fca509",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "116|Cambodia",
+      "country_id": "007fbf0e-d19b-53c0-aeed-dba6a3a57cdb",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "104|Myanmar",
+      "country_id": "3daea54a-7ce2-511d-ad76-5d0d3138e806",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "108|Burundi",
+      "country_id": "3c79270e-95be-52be-ad2e-33d0a5041672",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "854|Burkina Faso",
+      "country_id": "0344d9cd-43ce-570c-a867-6a546912356c",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "100|Bulgaria",
+      "country_id": "f773041c-bcf9-557c-ab52-f42872a6fe66",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "096|Brunei",
+      "country_id": "fba8fe4a-f404-58a7-a61a-8b2400530a79",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "076|Brazil",
+      "country_id": "b25ac830-1170-516b-a41d-5c984ccedc60",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "072|Botswana",
+      "country_id": "7a8a1a8f-2a27-5c94-a94f-4f4137de8b77",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "070|Bosnia and Herz.",
+      "country_id": "19b7bf88-6e11-5f0e-a67c-5392aa51756d",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "068|Bolivia",
+      "country_id": "d72c4e5f-bd22-53f6-a62c-523d658fab6f",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "064|Bhutan",
+      "country_id": "11ad7470-8e7b-5ec7-a3b9-2b5b3a53b01e",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "204|Benin",
+      "country_id": "43260122-a2aa-520b-af8b-dcf657691f2a",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "084|Belize",
+      "country_id": "848a141d-d551-5fd3-a566-82481336b9b1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "056|Belgium",
+      "country_id": "4b208734-fd42-5653-a9dd-df1e119954c3",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "112|Belarus",
+      "country_id": "692a787b-7d3a-5995-a8ba-f839d2b78332",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "052|Barbados",
+      "country_id": "0f9330be-9787-515b-a039-dd8bcead74b1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "050|Bangladesh",
+      "country_id": "609597f6-6739-5f53-a573-99b0ecaca1d5",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "048|Bahrain",
+      "country_id": "1d74eb2f-9524-56e0-a11f-1ebd62ed6dc8",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "044|Bahamas",
+      "country_id": "96d1cb5d-5320-5b44-af38-8b684a95d43b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "031|Azerbaijan",
+      "country_id": "7cd72ee7-30cf-52a6-aba5-cfd85ba178bc",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "040|Austria",
+      "country_id": "d63bf988-1146-5373-adb1-14f7291b8319",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "036|Australia",
+      "country_id": "aff0fc83-0b41-5b45-a236-4905892127e1",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "Indian Ocean Ter.|Indian Ocean Ter.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "334|Heard I. and McDonald Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "574|Norfolk Island",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "036|Ashmore and Cartier Is.",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "051|Armenia",
+      "country_id": "f29fb674-0ed3-50da-af1b-c16967f35cc5",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "032|Argentina",
+      "country_id": "b5606b51-03c2-5e22-a9b3-e27890bbde2b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "028|Antigua and Barb.",
+      "country_id": "2ee6e08a-2efe-536b-a640-7202671da43b",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "024|Angola",
+      "country_id": "82842245-512f-5897-a41a-87a296229948",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "020|Andorra",
+      "country_id": "bf77ede0-4058-5a54-ac7e-73808762a460",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "012|Algeria",
+      "country_id": "a88227aa-140f-5300-a91a-767735c86e51",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "008|Albania",
+      "country_id": "44e5363a-2d1f-538e-ab82-125f217a6f43",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "004|Afghanistan",
+      "country_id": "e63c99e6-da65-5594-a6e8-e83fc302ebfa",
+      "status": "mapped",
+      "reason": "ISO numeric + explicit source-name check"
+    },
+    {
+      "geo_key": "Siachen Glacier|Siachen Glacier",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "010|Antarctica",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    },
+    {
+      "geo_key": "534|Sint Maarten",
+      "country_id": null,
+      "status": "excluded",
+      "reason": "Outside the 193+2 catalog; no automatic sovereign-country assignment"
+    }
+  ]
+}

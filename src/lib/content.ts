@@ -1,0 +1,12 @@
+import archive from '../../content/archive.json';
+import catalog from '../../content/countries.json';
+import visitData from '../../content/visits.json';
+export const preview=import.meta.env.DEV || process.env.TTJ_PREVIEW==='1';
+export const countries=catalog.countries;
+export const stories=archive.stories.filter(s=>preview || (s.status==='published'&&!s.synthetic));
+export const assets=archive.assets;
+export const visits=preview?visitData.demo:visitData.real;
+export const countryStories=(id:string)=>stories.filter(s=>s.countryIds.includes(id));
+export const asset=(id:string)=>assets.find(a=>a.id===id);
+export const countryUrl=(id:string)=>'/salys/'+countries.find(c=>c.country_id===id)?.iso_alpha2.toLowerCase()+'/';
+export const continents={EU:'Europa',AS:'Azija',AF:'Afrika',NA:'Šiaurės Amerika',SA:'Pietų Amerika',OC:'Okeanija'};

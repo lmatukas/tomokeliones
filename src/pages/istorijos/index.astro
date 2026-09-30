@@ -1,0 +1,4 @@
+---
+import Layout from '../../layouts/Layout.astro';import StoryRow from '../../components/StoryRow.astro';import {stories,preview} from '../../lib/content';
+---
+<Layout title="Istorijos · Tomas Travel Journal"><section class="wrap page-head"><p class="eyebrow">KELIONIŲ DIENORAŠTIS</p><h1>Kelionė baigiasi.<br/><em>Pasakojimas lieka.</em></h1><p>{preview?'Bandomosios Lietuvos istorijos: su galerija, maršrutu ir vien tik tekstu.':'Tomo kelionių užrašai.'}</p></section><section class="wrap all-stories">{stories.map(story=><StoryRow story={story}/>)}</section></Layout>

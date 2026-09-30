@@ -1,0 +1,7 @@
+---
+import Layout from '../layouts/Layout.astro';import Search from '../components/Search.astro';import StoryRow from '../components/StoryRow.astro';import Globe from '../components/Globe.astro';import {stories,preview} from '../lib/content';
+---
+<Layout dark>
+<section class="hero wrap" id="gaublys"><div class="hero-copy"><p class="eyebrow">TOMO GAIŽAUSKO KELIONIŲ UŽRAŠAI</p><h1>Pasaulis,<br/>kurį norisi<br/><em>pažinti.</em></h1><p class="hero-intro">Vietos, keliai ir istorijos.<br/>Pasukite gaublį ir pasirinkite šalį.</p><Search/><a class="text-link" href="/salys/">Visos šalys <span>↗</span></a></div><Globe/><div class="hero-bottom"><span class="scroll-cue">↓ &nbsp; Toliau — istorijos</span><span class="globe-legend"><i></i>{preview?'Pažymėta testinė Lietuva':'Patvirtintos aplankytos šalys'}</span><span>Žemė sukasi. Istorijos lieka.</span></div></section>
+<section class="paper-section" id="istorijos"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">KELIONIŲ DIENORAŠTIS</p><h2>Už žemėlapio ribų.</h2></div><a class="text-link" href="/istorijos/">Visos istorijos ↗</a></div>{preview&&<p class="section-note">Kol ruošiamas tikrasis archyvas, čia — Lietuvos pavyzdžiai svetainės bandymui.</p>}<div class="story-list">{stories.slice(0,3).map(story=><StoryRow story={story}/>)}</div>{!stories.length&&<p>Kelionių užrašai dar ruošiami.</p>}</div></section>
+</Layout>

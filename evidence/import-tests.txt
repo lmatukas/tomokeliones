@@ -1,0 +1,19 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> tomas-travel-journal-cloudflare@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ Drive fixture: interruption, resume, same/new batch deduplication; no visit invented (683.465043ms)
+✔ Manual caption, alt, order and removal survive; conflicting source is reported repeatedly (652.261397ms)
+✔ Changed bytes produce new URLs; missing or unsafe assets leave content unchanged (755.080159ms)
+✔ Originals remain unchanged and output has no EXIF; text-only story valid (619.003574ms)
+✔ Country geometry includes Crimea in Ukraine, never Russia; count is unique 195 (37.033457ms)
+✔ Sun unit and longitude conventions: equinox noon at Greenwich; Moon changes over time (1.142673ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2906.366981
