@@ -36,7 +36,16 @@ story list/detail, gallery/dialog, route map, empty states, sources and 404.
 - `npm run build`: PASS, 201 HTML pages, 2,991 checked local references.
 - `npm run build:preview`: PASS, 204 HTML pages, 3,051 checked references.
 - `git diff --check`: PASS.
-- Browser visual and interaction checks are pending the branch deployment.
+- Cloudflare preview deployment succeeded. Browser checks cover the desktop
+  home, story cards and text story; 320/360/390 px layout frames cover home,
+  atlas, Lithuania, a story and the France empty state. No observed horizontal
+  overflow. The frame is a CSS layout check, not a physical phone test.
+- Country search for Lithuania and Enter navigation PASS. Gallery opening,
+  next image (2/4), Escape close and focus restoration PASS.
+- Preview builds now use SAMEORIGIN framing so `/patikra/` can embed this same
+  site. Production keeps X-Frame-Options DENY; both modes have build assertions.
+- Screenshots: `vintage-home-desktop.jpg` (honest WebGL fallback),
+  `vintage-story-mobile-390.jpg` (390 px CSS frame).
 - Actual WebGL2 and physical touch acceptance remain separate from static
   layout checks. Globe shaders, textures, geometry and interaction logic are
   unchanged by this design work.
