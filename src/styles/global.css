@@ -25,8 +25,9 @@ em{font-weight:450;color:var(--copper)}img{display:block;max-width:100%;height:a
 .header::after{content:'';position:absolute;bottom:4px;left:0;right:0;border-bottom:1px solid #d5c7a86b}
 .brand{display:inline-flex;align-items:center;gap:12px;flex:none}
 .brand img{width:68px;height:68px;object-fit:contain;mix-blend-mode:multiply}
-.brand-type{font:650 27px/1.2 var(--sans);letter-spacing:.21em;white-space:nowrap}
-.brand small{display:block;font-size:8px;font-weight:650;letter-spacing:.22em;margin-top:6px}
+.brand-type{display:flex;flex-direction:column;align-items:center;text-align:center;font:650 27px/1.2 var(--sans);letter-spacing:.21em;white-space:nowrap}
+.brand-name{margin-right:-.21em}
+.brand small{display:block;font-size:8px;font-weight:650;letter-spacing:.22em;margin-top:6px;margin-right:-.22em}
 .header nav{display:flex;gap:32px;font-size:12px}
 .header nav a{padding:14px 0;position:relative}
 .header nav a::after{content:'';position:absolute;left:0;right:0;bottom:5px;height:1px;background:var(--copper);transform:scaleX(0);transition:transform .2s}
