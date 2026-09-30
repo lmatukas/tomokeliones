@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/validate.mjs && node scripts/clean-build.mjs && astro build && node scripts/verify-build.mjs",
+    "build": "node scripts/validate.mjs && node scripts/clean-build.mjs && astro build && node scripts/finalize-build.mjs && node scripts/verify-build.mjs",
     "build:preview": "TTJ_PREVIEW=1 npm run build",
     "preview": "astro preview --host 0.0.0.0",
     "import:demo": "node scripts/prepare-demo.mjs && node scripts/import.mjs .work/demo-package.json",
