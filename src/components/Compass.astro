@@ -1,0 +1,11 @@
+---
+const {class:className=''}=Astro.props;
+---
+<svg class:list={['compass',className]} viewBox="0 0 100 100" fill="none" aria-hidden="true">
+  <circle cx="50" cy="50" r="35" stroke="currentColor" stroke-width=".6"/>
+  <circle cx="50" cy="50" r="30" stroke="currentColor" stroke-width=".4"/>
+  <path d="M50 8 56 44 92 50 56 56 50 92 44 56 8 50 44 44Z" stroke="currentColor"/>
+  <path d="M50 8v42l6-6ZM92 50H50l6 6ZM50 92V50l-6 6ZM8 50h42l-6-6Z" fill="currentColor"/>
+  <path d="m26 26 24 16 24-16-16 24 16 24-24-16-24 16 16-24Z" stroke="currentColor" stroke-width=".5"/>
+  <circle cx="50" cy="50" r="3" fill="currentColor"/>
+</svg>

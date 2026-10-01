@@ -73,3 +73,12 @@ Before a real archive: test 20/100 photos, HEIC, duplicate names, orientation/GP
 Architecture, costs, design, open questions and permissions live in the new Drive project. This README is the executable code guide, not copied WP documentation. Dependencies pinned by `package-lock.json`; see `THIRD_PARTY_NOTICES.md`.
 
 Back up Git bundle, static release, private import state/packages and originals independently. JSON, GeoJSON, WebP and HTML can move to another static host. Roll back code/content together to a reviewed commit and rebuild; Cloudflare rollback needs its own tested history. Runtime does not depend on Drive, GitHub API or AI.
+
+## Vintage design
+
+The current design follows Tomas's supplied sailing-ship logo: warm paper,
+sepia typography and a brass-framed live atlas. Shared styles cover every page,
+including empty states and the gallery. `public/brand/ship-mark.webp` is the
+optimized mark; the generated original is recorded in `evidence/vintage-design.md`.
+Regenerate the lightweight decorative map with `node scripts/build-atlas-decoration.mjs`.
+This does not change the globe's geographic data or textures.

@@ -1,7 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';import Search from '../components/Search.astro';import StoryRow from '../components/StoryRow.astro';import Globe from '../components/Globe.astro';import {stories,preview} from '../lib/content';
+import Layout from '../layouts/Layout.astro';
+import Search from '../components/Search.astro';
+import StoryRow from '../components/StoryRow.astro';
+import Globe from '../components/Globe.astro';
+import Compass from '../components/Compass.astro';
+import {stories,preview} from '../lib/content';
 ---
-<Layout dark>
-<section class="hero wrap" id="gaublys"><div class="hero-copy"><p class="eyebrow">TOMO GAIŽAUSKO KELIONIŲ UŽRAŠAI</p><h1>Pasaulis,<br/>kurį norisi<br/><em>pažinti.</em></h1><p class="hero-intro">Vietos, keliai ir istorijos.<br/>Pasukite gaublį ir pasirinkite šalį.</p><Search/><a class="text-link" href="/salys/">Visos šalys <span>↗</span></a></div><Globe/><div class="hero-bottom"><span class="scroll-cue">↓ &nbsp; Toliau — istorijos</span><span class="globe-legend"><i></i>{preview?'Pažymėta testinė Lietuva':'Patvirtintos aplankytos šalys'}</span><span>Žemė sukasi. Istorijos lieka.</span></div></section>
-<section class="paper-section" id="istorijos"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">KELIONIŲ DIENORAŠTIS</p><h2>Už žemėlapio ribų.</h2></div><a class="text-link" href="/istorijos/">Visos istorijos ↗</a></div>{preview&&<p class="section-note">Kol ruošiamas tikrasis archyvas, čia — Lietuvos pavyzdžiai svetainės bandymui.</p>}<div class="story-list">{stories.slice(0,3).map(story=><StoryRow story={story}/>)}</div>{!stories.length&&<p>Kelionių užrašai dar ruošiami.</p>}</div></section>
+<Layout>
+<section class="hero-section" id="gaublys">
+  <div class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="ink-rule"></span> TOMO GAIŽAUSKO KELIONIŲ UŽRAŠAI</p>
+      <h1>Pasaulis pilnas<br/><em>istorijų.</em></h1>
+      <p class="hero-intro">Vietos, kurias norisi prisiminti.<br/>Kelionės, kuriomis norisi pasidalinti.</p>
+      <div class="hero-search"><Search/><a class="text-link" href="/salys/">Atversti šalių atlasą <span>↗</span></a></div>
+      <div class="hero-signature"><Compass/><p>Pasukite gaublį.<br/><span>Pasirinkite, nuo kur pradėti.</span></p></div>
+    </div>
+    <div class="globe-panel">
+      <div class="panel-label"><span>GYVAS PASAULIO ATLASAS</span><span aria-hidden="true">✦</span></div>
+      <Globe/>
+      <div class="panel-foot"><span class="globe-legend"><i></i>{preview?'Testinės Lietuvos kontūras':'Aplankytų šalių kontūrai'}</span><span>Pasukite · atraskite</span></div>
+    </div>
+  </div>
+  <div class="hero-bottom wrap"><a href="#istorijos">↓ &nbsp; Atversti dienoraštį</a><span>Kelionės prasideda nuo smalsumo.</span></div>
+</section>
+<section class="paper-section" id="istorijos">
+  <div class="wrap">
+    <div class="section-heading"><div><p class="eyebrow">KELIONIŲ DIENORAŠTIS</p><h2>Užrašai iš kelionių<span class="title-dot">.</span></h2></div><a class="text-link" href="/istorijos/">Visos istorijos <span>↗</span></a></div>
+    {preview&&<p class="section-note">Kol ruošiamas tikrasis archyvas, čia — Lietuvos pavyzdžiai svetainės bandymui.</p>}
+    {stories.length?<div class="story-grid">{stories.slice(0,3).map(story=><StoryRow story={story}/>)}</div>:<div class="journal-empty"><Compass/><h3>Pirmieji puslapiai dar ruošiami.</h3><p>Čia atsiras kelionių pasakojimai ir nuotraukos.</p><a class="text-link" href="/salys/">Kol kas — po pasaulio atlasą <span>↗</span></a></div>}
+  </div>
+</section>
+<section class="atlas-invitation wrap"><Compass/><div><p class="eyebrow">ŠALIŲ ATLASAS</p><h2>Kur veda smalsumas?</h2><p>Pasirinkite šalį ir atverskite jos kelionių užrašus.</p></div><a class="button-link" href="/salys/">Rinktis šalį <span>↗</span></a></section>
 </Layout>

@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 const root=path.resolve('dist'),preview=process.env.TTJ_PREVIEW==='1';
+const headers=await fs.readFile(path.join(root,'_headers'),'utf8');
+assert(headers.includes('X-Frame-Options: '+(preview?'SAMEORIGIN':'DENY')),'Wrong frame policy for this build mode');
 const archive=JSON.parse(await fs.readFile('content/archive.json','utf8'));
 const exists=p=>fs.access(p).then(()=>true,()=>false);
 for(const story of archive.stories){
